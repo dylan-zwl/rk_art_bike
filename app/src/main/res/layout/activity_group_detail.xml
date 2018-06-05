@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rl_radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/group_text_color" >
+
+        <RadioGroup
+            android:id="@+id/rg_group_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_group_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/group_detail_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/group_info"
+                android:textColor="@color/group_text_color"
+                android:textSize="@dimen/textsize24" />
+
+            <RadioButton
+                android:id="@+id/rb_group_rank_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/group_detail_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/ranking_list"
+                android:textColor="@color/group_text_color"
+                 android:textSize="@dimen/textsize24"/>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/rl_radio"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

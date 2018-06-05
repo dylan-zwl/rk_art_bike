@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:workout="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menubar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menuBar"
+    android:background="@drawable/background_bottom"
+    android:orientation="horizontal"
+    tools:ignore="PxUsage" >
+
+    <LinearLayout
+        android:id="@+id/androidCtrl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15px"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22px"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:src="@drawable/returns" />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="23px"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:src="@drawable/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="720dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0px"
+        android:gravity="center_horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/connect_status_LinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="480dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/bluetooth_status"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/blue_unconnect"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/wifi_status"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/wifi_unconnect"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/workoutOsd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="14px"
+                android:gravity="center_vertical" >
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdIncline"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/incline"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdSpeed"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/speed"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdTime"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/goaltime"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdDistance"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/distance"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+
+                <LinearLayout
+                    android:id="@+id/workoutGoal"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/osdGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="48px"
+                        android:layout_marginTop="6px"
+                        android:gravity="center|top"
+                        android:text="@string/goal"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/workout_title_size" />
+
+                    <ProgressBar
+                        android:id="@+id/osdProgress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="100px"
+                        android:layout_height="17px"
+                        android:layout_marginTop="1px"
+                        android:indeterminateOnly="false"
+                        android:max="100"
+                        android:progressDrawable="@drawable/osd_goal" />
+                </LinearLayout>
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdHeart"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/heart"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+
+                <com.tapc.platform.stardandctrl.WorkoutOSD
+                    android:id="@+id/osdBikeSpeed"
+                    android:layout_width="@dimen/osd_with"
+                    android:layout_height="@dimen/osd_height"
+                    workout:offset_y="20"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/bike_rpm"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName="0"
+                    workout:unitSize="@dimen/workout_osd_size" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.tapc.platform.stardandctrl.WorkoutOSD
+            android:id="@+id/osdDateTime"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14px"
+            android:layout_marginTop="20px"
+            workout:offset_y="15"
+            workout:textColor="@android:color/white"
+            workout:titleName="00:00"
+            workout:titleSize="38sp"
+            workout:unitName="2015/01/01"
+            workout:unitSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolsCtrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/fan"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/fan1"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/volume"
+            android:layout_width="56px"
+            android:layout_height="47px"
+            android:background="@drawable/volume" />
+    </LinearLayout>
+
+</LinearLayout>

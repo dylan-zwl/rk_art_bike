@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="@drawable/background_top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/program1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:background="@drawable/program1"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p01"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+
+            <Button
+                android:id="@+id/program2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:layout_marginLeft="@dimen/program_magin_l"
+                android:background="@drawable/program2"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p02"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+
+            <Button
+                android:id="@+id/program3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:layout_marginLeft="@dimen/program_magin_l"
+                android:background="@drawable/program3"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p03"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/program4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:background="@drawable/program4"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p04"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+
+            <Button
+                android:id="@+id/program5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:layout_marginLeft="@dimen/program_magin_l"
+                android:background="@drawable/program5"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p05"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+
+            <Button
+                android:id="@+id/program6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/program_with"
+                android:layout_height="@dimen/program_height"
+                android:layout_marginLeft="@dimen/program_magin_l"
+                android:background="@drawable/program6"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/program_p06"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/program_sel_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/program_nextbutton"
+        android:layout_width="@dimen/main_icon3_with"
+        android:layout_height="@dimen/main_icon1_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

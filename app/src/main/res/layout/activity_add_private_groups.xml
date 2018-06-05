@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_private_group_icon"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="@dimen/main_tx_padding_top" />
+
+        <EditText
+            android:id="@+id/edit_group_id"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/group_edit_bg"
+            android:hint="@string/input_group_invitation_code"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColorHint="@color/group_button_down_color"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/groups_text_edit" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_add_group"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/group_btn_selector"
+            android:text="@string/now_add"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/groups_button_size" />
+    </LinearLayout>
+
+</RelativeLayout>

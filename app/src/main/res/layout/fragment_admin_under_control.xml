@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:orientation="vertical"
+    android:scrollbarFadeDuration="0"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/ctl_machine"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <RadioGroup
+                android:id="@+id/set_machine_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <RadioButton
+                    android:id="@+id/ctl_nm_machine"
+                    android:checked="true"
+                    android:text="@string/ctl_nm_machine" />
+
+                <RadioButton
+                    android:id="@+id/ctl_hz_machine"
+                    android:layout_marginLeft="60px"
+                    android:text="@string/ctl_hz_machine" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/machine_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

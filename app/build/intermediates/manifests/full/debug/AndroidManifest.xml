@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tapc.platform"
+    android:versionCode="2"
+    android:versionName="1.0.2" > <!-- android:sharedUserId="android.uid.system" -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.hardware.usb.accessory" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.tapc.platform.TapcApp"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.tapc.platform.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tapc.platform.activity.TVActivity" />
+        <activity android:name="com.tapc.platform.activity.GoalActivity" />
+        <activity android:name="com.tapc.platform.activity.ScenePlayActivity" />
+        <activity android:name="com.tapc.platform.activity.SceneRunActivity" />
+        <activity android:name="com.tapc.platform.activity.ProgramAcitvity" />
+        <activity android:name="com.tapc.platform.activity.SetProgramTimeAcitvity" />
+        <activity android:name="com.tapc.platform.activity.LanguageAcivity" />
+        <activity android:name="com.tapc.platform.activity.HelpActivity" />
+        <activity android:name="com.tapc.platform.activity.SportResultActivity" />
+        <activity android:name="com.tapc.platform.activity.ApplicationActivity" />
+        <activity android:name="com.tapc.platform.activity.RecordActivity" />
+        <activity android:name="com.tapc.platform.activity.WorkoutCtlSetActivity" />
+        <activity android:name="com.tapc.platform.activity.ChooseChallengeModeActivity" />
+        <activity android:name="com.tapc.platform.activity.StartChallenge" />
+        <activity android:name="com.tapc.platform.activity.ChallengeResultActivity" />
+        <activity android:name="com.tapc.platform.activity.WattConstanAcitvity" />
+        <activity android:name="com.tapc.platform.activity.LoadCtlSetAcitvity" />
+        <activity
+            android:name="com.tapc.platform.activity.LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tapc.platform.activity.SettingActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.tapc.platform.activity.RegisterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tapc.platform.activity.GroupsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tapc.platform.activity.CreateGroupActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tapc.platform.activity.CreatePrivateGroupSuccessActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.tapc.platform.activity.AddGroupActivity" />
+        <activity
+            android:name="com.tapc.platform.activity.PublicGroupListActivity"
+            android:theme="@style/ListViewFastScrollThumb" />
+        <activity
+            android:name="com.tapc.platform.activity.AddPrivateGroupActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.tapc.platform.activity.PublicGroupDetailActivity" />
+        <activity
+            android:name="com.tapc.platform.activity.GroupDetailActivity"
+            android:theme="@style/ListViewFastScrollThumb" />
+        <activity android:name="com.tapc.platform.activity.GroupUserDetailActivity" />
+        <activity android:name="com.tapc.platform.activity.DeviceSettingActivity" />
+        <activity android:name="com.tapc.platform.activity.LoginSettingActivity" />
+
+        <service
+            android:name="com.tapc.platform.service.MenuService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name=".service.MenuService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.tapc.platform.service.VoiceInputService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name=".service.VoiceInputService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.tapc.platform.service.MachineStatusService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name=".service.MachineStatusService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.tapc.platform.receiver.NetWorkBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tapc.platform.receiver.BlueBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

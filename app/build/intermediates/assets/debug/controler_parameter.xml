@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <ctl_power_selection>20</ctl_power_selection>
+    <ctl_rated_voltage>99</ctl_rated_voltage>
+    <ctl_rated_current>5</ctl_rated_current>
+    <ctl_rated_speed>3</ctl_rated_speed>
+    <ctl_overload_current>2</ctl_overload_current>
+    <ctl_rotor_winding>25</ctl_rotor_winding>
+    <ctl_cutoff_current>150</ctl_cutoff_current>
+    <ctl_min_speed>1</ctl_min_speed>
+    <ctl_max_speed>75</ctl_max_speed>
+    <ctl_acceleration>124</ctl_acceleration>
+    <ctl_deceleration>25</ctl_deceleration>
+    <ctl_max_slope>4</ctl_max_slope>
+    <ctl_min_speed_than>1</ctl_min_speed_than>
+    <ctl_mid_speed_than>75</ctl_mid_speed_than>
+    <ctl_max_speed_than>124</ctl_max_speed_than>
+    <ctl_deceleration>25</ctl_deceleration>
+    <ctl_roller_speed_than>4</ctl_roller_speed_than>
+    
+</resources>

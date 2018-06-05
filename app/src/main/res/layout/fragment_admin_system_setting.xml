@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:orientation="vertical"
+            android:scrollbarFadeDuration="0"
+            android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <TextView
+                android:id="@+id/version_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="4"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/device_used"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <TextView
+                android:id="@+id/device_run_infor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:textSize="@dimen/settings_title_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/backlight"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/backlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_marginRight="@dimen/settings_margin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_update_version"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <Button
+                android:id="@+id/update_os"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/admin_update_os"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/update_mcu"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/admin_update_mcu"/>
+
+            <Button
+                android:id="@+id/update_app_u"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/admin_update_apku"/>
+
+            <Button
+                android:id="@+id/update_app_online"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/admin_update_apk_online"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_slope_calibration"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <Button
+                android:id="@+id/start_calibration"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/start_slope_calibration"/>
+
+            <ProgressBar
+                android:id="@+id/calibration_progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/settings_title_size"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/calibration_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/device_sel"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <Button
+                android:id="@+id/setting_bike_b8900ut"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/bike_b8900ut"/>
+
+            <Button
+                android:id="@+id/setting_bike_b8900et"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/bike_b8900et"/>
+
+            <Button
+                android:id="@+id/setting_bike_b8900rt"
+                android:layout_width="@dimen/settings_button_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:layout_marginRight="@dimen/settings_margin"
+                android:layout_weight="1"
+                android:text="@string/bike_b8900rt"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/admin_third_app_install_manager"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/app_install_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/app_install_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/admin_third_app_install_ban"/>
+
+                <RadioButton
+                    android:id="@+id/app_install_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:text="@string/admin_third_app_install_allow"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/admin_detectperson"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/detectperson_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/detectperson_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/admin_third_app_install_ban"/>
+
+                <RadioButton
+                    android:id="@+id/detectperson_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:text="@string/admin_third_app_install_allow"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/admin_erp"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/erp_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/erp_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/admin_third_app_install_ban"/>
+
+                <RadioButton
+                    android:id="@+id/erp_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:text="@string/admin_third_app_install_allow"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/admin_test"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/test_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/test_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/admin_close"/>
+
+                <RadioButton
+                    android:id="@+id/test_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:text="@string/admin_open"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/scan_qr_setting"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/scan_qr_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/scan_qr_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/admin_close"/>
+
+                <RadioButton
+                    android:id="@+id/scan_qr_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:checked="true"
+                    android:text="@string/admin_open"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/rfid_setting"
+                android:textSize="@dimen/settings_title_size"/>
+
+            <RadioGroup
+                android:id="@+id/rfid_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rfid_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/admin_close"/>
+
+                <RadioButton
+                    android:id="@+id/rfid_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60px"
+                    android:checked="true"
+                    android:text="@string/admin_open"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_restore"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/enter_reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_reset"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginBottom="@dimen/settings_margin_top"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_service"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IP : "
+                    android:textSize="@dimen/settings_title_size">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/service_ip"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789."
+                    android:gravity="center"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/settings_margin"
+                    android:text="PORT : "
+                    android:textSize="@dimen/settings_title_size">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/service_port"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="5"/>
+
+                <Button
+                    android:id="@+id/service_ip_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/settings_margin"
+                    android:text="@string/settings_save"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginBottom="@dimen/settings_margin_top"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:background="@drawable/scene_play_back_shape"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/settings_item_w"
+                android:layout_height="wrap_content"
+                android:text="设备号"
+                android:textSize="@dimen/settings_title_size">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/settings_margin"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID : "
+                    android:textSize="@dimen/settings_title_size">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/device_id"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLength="6"/>
+
+                <Button
+                    android:id="@+id/device_id_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/settings_margin"
+                    android:text="@string/settings_save"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

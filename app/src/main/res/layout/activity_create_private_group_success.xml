@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/create_group_success"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:text="@string/creat_success"
+                android:textColor="@color/group_text_color"
+                android:textSize="46sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/group_edit_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/group_text_blue"
+            android:textSize="@dimen/groups_text_edit" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_group_id"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/group_edit_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/group_text_blue"
+            android:textSize="@dimen/groups_text_edit" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_into_group"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/group_btn_selector"
+            android:text="@string/now_in"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/groups_button_size" />
+    </LinearLayout>
+
+</RelativeLayout>

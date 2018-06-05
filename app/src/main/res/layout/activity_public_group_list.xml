@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/group_bar_blue_bg" >
+
+        <TextView
+            android:id="@+id/tv_group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/public_gourp_list"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+
+        <Button
+            android:id="@+id/btn_group_random_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/group_btn_random_add_selector"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/random_add"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/group_stroke_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/group_fragment_bar_bg" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="140dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/group_name"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="126dp"
+            android:layout_toLeftOf="@+id/textView2"
+            android:gravity="left|center_vertical"
+            android:minWidth="150dp"
+            android:text="@string/user_num"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="108dp"
+            android:gravity="center"
+            android:text="@string/direct_add"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/group_stroke_color" />
+
+    <ListView
+        android:id="@+id/listview_groups"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="96dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginTop="8dp"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:paddingRight="10dp"/>
+
+</LinearLayout>

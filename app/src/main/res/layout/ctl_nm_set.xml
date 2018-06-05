@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_nm_motor_belt_diameter"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/ctl_nm_motor_belt_diameter"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_nm_roller_diameter"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_nm_roller_diameter"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_nm_drum_pulley_diameter"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_nm_drum_pulley_diameter"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/underctl_nm_save"
+            android:layout_width="@dimen/settings_mitem_w"
+            android:layout_height="match_parent"
+            android:text="@string/settings_save"
+            android:textSize="@dimen/settings_title_size" />
+    </LinearLayout>
+
+</LinearLayout>

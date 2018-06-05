@@ -1,0 +1,656 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:workout="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="top"
+             android:background="@drawable/background_top"
+             android:keepScreenOn="true"
+             android:padding="0dp">
+
+    <LinearLayout
+        android:id="@+id/screen1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/main_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/mainLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32px"
+                android:layout_marginTop="@dimen/main_line1_top_margin"
+                android:background="@drawable/logo_gz"
+                android:orientation="vertical"
+                android:visibility="invisible">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32px"
+                android:layout_marginTop="@dimen/main_line1_top_margin"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="263px">
+
+                    <Button
+                        android:id="@+id/loginButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/login"
+                        android:gravity="top|center_horizontal"
+                        android:paddingTop="@dimen/main_tx_padding_top"
+                        android:text="@string/user_login"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/login_title_size"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5px">
+
+                    <Button
+                        android:id="@+id/registerButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="45px"
+                        android:layout_marginLeft="0px"
+                        android:layout_marginRight="0px"
+                        android:background="@drawable/register_user"
+                        android:gravity="center"
+                        android:text="@string/user_register"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/login_title_size"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="wrap_content">
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/main_FrameLayout_line_workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22px"
+                android:layout_marginTop="@dimen/main_line1_top_margin">
+
+                <LinearLayout
+                    android:id="@+id/main_LinearLayout_line_workout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/goalDistanceButton"
+                            android:layout_width="@dimen/main_icon2_with"
+                            android:layout_height="@dimen/main_icon2_height"
+                            android:background="@drawable/distance"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/goaldistance"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"/>
+
+                        <Button
+                            android:id="@+id/languageButton"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/language"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/language"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/main_line1_left_margin"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/goalTimeButton"
+                            android:layout_width="@dimen/main_icon2_with"
+                            android:layout_height="@dimen/main_icon2_height"
+                            android:background="@drawable/time"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/goaltime"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"/>
+
+                        <Button
+                            android:id="@+id/startButton"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/start"
+                            android:gravity="center"
+                            android:paddingTop="0px"
+                            android:text="@string/start"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/start_title_size"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/main_line1_left_margin"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/goalCalorieButton"
+                            android:layout_width="@dimen/main_icon2_with"
+                            android:layout_height="@dimen/main_icon2_height"
+                            android:background="@drawable/calorie"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/goalcalorie"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"/>
+
+                        <Button
+                            android:id="@+id/helpButton"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/help"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/help"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_LinearLayout_line_workout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.tapc.platform.stardandctrl.WorkoutText
+                            android:id="@+id/scan_code_time"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:background="@drawable/tamne"
+                            workout:scale="4dp"
+                            workout:textColor="@android:color/white"
+                            workout:titleName="@string/goaltime"
+                            workout:titleSize="@dimen/workout_title_size"
+                            workout:unitName="min"
+                            workout:unitSize="@dimen/workout_unit_size"
+                            workout:valueSize="@dimen/workout_value_size"/>
+
+                        <com.tapc.platform.stardandctrl.WorkoutText
+                            android:id="@+id/heart"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/heart_rate"
+                            workout:scale="4dp"
+                            workout:textColor="@android:color/white"
+                            workout:titleName="@string/heart"
+                            workout:titleSize="@dimen/workout_title_size"
+                            workout:unitName="bpm"
+                            workout:unitSize="@dimen/workout_unit_size"
+                            workout:valueSize="@dimen/workout_value_size"/>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/gradient">
+
+                            <com.tapc.platform.stardandctrl.WorkoutTitle
+                                android:id="@+id/inclineTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/main_icon1_height3"
+                                workout:textColor="@android:color/white"
+                                workout:titleName="@string/incline"
+                                workout:titleSize="@dimen/workout_title_size"
+                                workout:unitName="  %"
+                                workout:unitSize="20sp"/>
+
+                            <com.tapc.platform.stardandctrl.WorkoutCtrl
+                                android:id="@+id/inclineCtrl"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="44px"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/main_line1_left_margin"
+                        android:orientation="vertical">
+
+                        <com.tapc.platform.stardandctrl.WorkoutText
+                            android:id="@+id/distance"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:background="@drawable/distence"
+                            workout:scale="4dp"
+                            workout:textColor="@android:color/white"
+                            workout:titleName="@string/goaldistance"
+                            workout:titleSize="@dimen/workout_title_size"
+                            workout:unitName="km"
+                            workout:unitSize="@dimen/workout_unit_size"
+                            workout:valueSize="@dimen/workout_value_size"/>
+
+                        <com.tapc.platform.stardandctrl.WorkoutGoal
+                            android:id="@+id/workout_goal"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"/>
+
+                        <Button
+                            android:id="@+id/stopButton"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/stop"
+                            android:text="@string/stop"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/start_title_size"/>
+
+                        <FrameLayout
+                            android:id="@+id/frameLayout_workout_pauserestart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:visibility="gone">
+
+                            <Button
+                                android:id="@+id/pauseButton"
+                                android:layout_width="@dimen/main_icon1_with"
+                                android:layout_height="@dimen/main_icon1_height2"
+                                android:background="@drawable/pause"
+                                android:text="@string/pause"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/stop_title_size"/>
+
+                            <Button
+                                android:id="@+id/restartButton"
+                                android:layout_width="@dimen/main_icon1_with"
+                                android:layout_height="@dimen/main_icon1_height2"
+                                android:background="@drawable/pause"
+                                android:text="@string/start"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/stop_title_size"/>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/main_line1_left_margin"
+                        android:orientation="vertical">
+
+                        <com.tapc.platform.stardandctrl.WorkoutText
+                            android:id="@+id/calorie"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:background="@drawable/calorle"
+                            workout:scale="4dp"
+                            workout:textColor="@android:color/white"
+                            workout:titleName="@string/goalcalorie"
+                            workout:titleSize="@dimen/workout_title_size"
+                            workout:unitName="kcal"
+                            workout:unitSize="@dimen/workout_unit_size"
+                            workout:valueSize="@dimen/workout_value_size"/>
+
+                        <com.tapc.platform.stardandctrl.WorkoutText
+                            android:id="@+id/altitude"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/altitude"
+                            workout:scale="4dp"
+                            workout:textColor="@android:color/white"
+                            workout:titleName="@string/altitude"
+                            workout:titleSize="@dimen/workout_title_size"
+                            workout:unitName="km"
+                            workout:unitSize="@dimen/workout_unit_size"
+                            workout:valueSize="@dimen/workout_value_size"/>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/speed">
+
+                            <com.tapc.platform.stardandctrl.WorkoutTitle
+                                android:id="@+id/speedTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/main_icon1_height3"
+                                workout:textColor="@android:color/white"
+                                workout:titleName="@string/speed"
+                                workout:titleSize="@dimen/workout_title_size"
+                                workout:unitName="  w"
+                                workout:unitSize="20sp"/>
+
+                            <com.tapc.platform.stardandctrl.WorkoutCtrl
+                                android:id="@+id/speedCtrl"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="44px"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_line1_left_margin"
+                android:layout_marginTop="@dimen/main_line1_top_margin"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/reportButton"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:background="@drawable/report"
+                    android:gravity="top|center_horizontal"
+                    android:paddingTop="@dimen/main_tx_padding_top"
+                    android:text="@string/report"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/goal_title_size"/>
+
+                <Button
+                    android:id="@+id/vaButton"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:layout_marginTop="@dimen/main_item_top_margin"
+                    android:background="@drawable/va"
+                    android:clickable="false"
+                    android:gravity="top|center_horizontal"
+                    android:paddingTop="@dimen/main_tx_padding_top"
+                    android:text="@string/virtual"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/goal_title_size"/>
+
+                <Button
+                    android:id="@+id/exerciseButton"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:layout_marginTop="@dimen/main_item_top_margin"
+                    android:background="@drawable/exercise"
+                    android:gravity="top|center_horizontal"
+                    android:paddingTop="@dimen/main_tx_padding_top"
+                    android:text="@string/exercise"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/goal_title_size"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_line1_left_margin"
+                android:layout_marginTop="@dimen/main_icon3_top_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="@dimen/main_icon3_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:background="@drawable/next"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/screen2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_height"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/system_settings"
+                android:layout_width="@dimen/main_icon3_with"
+                android:layout_height="@dimen/main_icon3_with"
+                android:background="@null"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_icon3_top_margin"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/preButton"
+                    android:layout_width="@dimen/main_icon3_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:background="@drawable/pre"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_line1_left_margin"
+            android:layout_marginTop="@dimen/main_line1_top_margin"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/newsButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:background="@drawable/news"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/news"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+
+            <Button
+                android:id="@+id/gameButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/game"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/game"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/weatherButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/weather"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/weather"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+
+            <Button
+                android:id="@+id/groupsButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/groups"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/groups"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_line1_left_margin"
+            android:layout_marginTop="@dimen/main_line1_top_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/videoButton"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:background="@drawable/video"
+                    android:gravity="top|center_horizontal"
+                    android:paddingTop="@dimen/main_tx_padding_top"
+                    android:text="@string/video"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/goal_title_size"/>
+
+                <Button
+                    android:id="@+id/musicButton"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:layout_marginLeft="@dimen/main_line1_left_margin"
+                    android:background="@drawable/music"
+                    android:gravity="top|center_horizontal"
+                    android:paddingTop="@dimen/main_tx_padding_top"
+                    android:text="@string/music"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/goal_title_size"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/internetButton"
+                android:layout_width="@dimen/main_icon4_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/internet"
+                android:gravity="top|left"
+                android:paddingLeft="@dimen/main_tx_padding_left"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/internet"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+
+            <Button
+                android:id="@+id/storeButton"
+                android:layout_width="@dimen/main_icon4_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/store"
+                android:gravity="top|left"
+                android:paddingLeft="@dimen/main_tx_padding_left"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/store"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_line1_left_margin"
+            android:layout_marginTop="@dimen/main_line1_top_margin"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/app"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:background="@drawable/app"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/app"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+
+
+            <Button
+                android:id="@+id/bluetoothButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/blue"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/bluetooth"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+
+            <Button
+                android:id="@+id/datetimeButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/time_set"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/datetime"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/main_icon1_with"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_line1_left_margin"
+            android:layout_marginTop="@dimen/main_line1_top_margin"
+            android:background="@drawable/logo_gz"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/wifiButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:background="@drawable/wifi"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/wifi"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/challenges"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:background="@drawable/empty"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/challenge_title"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

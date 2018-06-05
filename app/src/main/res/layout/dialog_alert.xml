@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="#c7273447"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="@string/exit_group"
+        android:textColor="@color/group_color_blue"
+        android:textSize="@dimen/textsize24" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/group_color_blue"
+        android:textSize="@dimen/textsize18" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/group_dialog_btn_selector_ok"
+            android:text="@string/confirm"
+             android:textColor="@drawable/group_dialog_btn_selector_ok_text"
+            android:textSize="@dimen/textsize24" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="28dp"
+            android:background="@drawable/group_dialog_btn_selector_cancle"
+            android:text="@string/cancle"
+            android:textColor="@drawable/group_dialog_btn_selector_cancle_text"
+            android:textSize="@dimen/textsize24" />
+    </LinearLayout>
+
+</LinearLayout>

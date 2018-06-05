@@ -1,0 +1,42 @@
+Thank you very much to choose our products.
+  Before installation and usage, please read the instructions carefully. 
+
+1. Precautions for treadmill use:
+  When you are using the treadmill, please prevent your kids from approaching the treadmill. Juveniles should not use the treadmill without the adult¡¯s accompany to prevent any accident.
+  Before using the treadmill, please clip the safety switch on the clothes of users. Please take down the safety switch when you do not use the safety switch.
+  The power supply for treadmill should be well grounded. The treadmill may be damaged by using outlet without good grounding and the Manufacturer may not provide warranty for this! After the practice, stop the treadmill and shut off the power supply.
+  Laymen must not open the front cover of treadmill and adjust the electronic control without approval, to avoid unnecessary troubles.
+  In order to lengthen the service life of treadmill and ensure your safety, it is forbidden for overweighed (beyond the weight limit) persons to use the treadmill and for two or more persons to use one treadmill simultaneously.
+  Please do not walk up or down the treadmill from the rear part to avoid getting hurt by the machine.
+  When the treadmill is operating, do not contact the running belt with hands or run on the treadmill with bare feet.
+  The heart rate monitoring is only for reference and cannot act as medical data; hypertensives and cardiopaths should not use the treadmill alone to prevent accident.
+  When you are using the treadmill, if you feel chest tightness and dizziness, stop your motion immediately for excessive motion may cause serious harm or accident.
+  Emergency jump-off method: if emergency happens during the movement process and the treadmill belt does not stop, hold the handrail with your hands to support your body and separate your feet from the treadmill belt surface, step on the stepping platform at two sides as well as get away from the treadmill from one side. 
+  A 2000mm¡Á1000mm safety area shall be reserved behind the treadmill to prevent accident during treadmill operation.  
+ For your safety, please operate the following items in the main interface under the halt state of the treadmill: ¡°wireless network¡±, ¡°bluetooth¡±, ¡°application¡±, ¡°time zone¡±, ¡°video¡± and ¡°music¡±. Please conduct relevant operations with the physical keys on the control panel as far as possible during the operational process of the treadmill.
+2. User management: (it can be operated only under the halt state of the treadmill)
+Log in: you can log in with the existing account or log out the logged in account after the internet is connected.  
+Registration: new user can be registered by filling in basic information after the internet is connected.
+3. Manual exercise mode:  
+Start:  the treadmill starts to operate with low speed after the ¡°Start¡± key is pressed directly under standby mode; ¡°Target¡± window starts to count forward, and stops automatically after 120 min. The speed can be changed by pressing ¡°Speed Acceleration and Deceleration Key¡± or ¡°Speed Shortcut Key¡±; the gradient can be changed by pressing ¡°Gradient Acceleration and Deceleration Key¡± or ¡°Speed Shortcut Key¡±; the treadmill can be stopped and reset after the ¡°Stop¡± key is pressed during exercise.
+Emergency stop of the treadmill can be achieved by pulling off the safety lock under any circumstances.  
+4. Target exercise mode:
+Distance: user can start exercise after the exercise distance is set, and the treadmill will stop after the expected exercise distance is reached; the user can accelerate and decelerate the speed and the gradient freely during exercise, or stop the treadmill by pressing the ¡°Stop¡± key directly.
+Time: user can start exercise after the exercise time is set, and the treadmill will stop after the expected exercise time is reached; the user can accelerate and decelerate the speed and the gradient freely during exercise, or stop the treadmill by pressing the ¡°Stop¡± key directly.
+Calorie: user can start exercise after the exercise calorie is set, and the treadmill will stop after the expected exercise calorie is reached; the user can accelerate and decelerate the speed and the gradient freely during exercise, or stop the treadmill by pressing the ¡°Stop¡± key directly.
+5. Exercise program: 
+There are 12 intelligent science running programs in the system, such as body shaping, fat burning, mountain mode, etc. The user can choose desired exercise program, and press ¡°Start¡± key after the exercise time is set, then the treadmill starts to run its built-in exercise program. The speed and gradient can be adjusted during the operation of the treadmill, but it will adjust to the default value of the program automatically when it enters into next stage. The treadmill also can be stopped by pressing the ¡°Stop¡± key directly during the exercise.
+6. Exercise management
+Exercise data: view the last exercise data, including: time, distance and calorie.
+Exercise record: the historical exercise record and exercise statistics can be viewed here after the user is logged in.
+7. Language:  user can switch to the different languages provided by the system. 
+8. Wireless network: select the WIFI signal, enter the WIFI connection code, and complete the WIFI connection setting, then you can enjoy high-speed internet. 
+9. Bluetooth: you can listen to the internet or local music by connecting the bluetooth earphone.
+10. Application: the system pre-installed APP can be opened.
+11. Time zone: users can adjust the time zone and time freely as per their local time zone. 
+12. Internet: webpage can be browsed online.
+13. Baidu: Yahoo search can be conducted. 
+14. Video: local video file can be played. The corresponding video can be played by connecting the memory device with videos, like U-disk, etc., to the USB interface, and clicking the video list.
+15. Music: the local audio file can be played. The corresponding music can be played by connecting the memory device with music, like U-disk, etc., to the USB interface, and clicking the music list.
+
+Note: The above feature set, depending on the model, slightly different, specific to prevail in kind!

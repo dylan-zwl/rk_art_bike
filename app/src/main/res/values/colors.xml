@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- goal edit text color -->
+    <color name="goal_text_edit">#22A5D1</color>
+    <color name="setting_text_color">#22A5D1</color>
+    <color name="text_color1">#5da4d5</color>
+
+    <!-- group color -->
+    <color name="group_text_color">#f2f2f2</color>
+    <color name="group_color_blue">#349cd6</color>
+    <color name="group_color_blue_light">#83c5ea</color>
+    <color name="group_button_up_color">#50b1e7</color>
+    <color name="group_button_down_color">#5da4d5</color>
+    <color name="group_edit_solid_color">#75899B</color>
+    <color name="group_edit_stroke_color">#50b1e7</color>
+    <color name="group_stroke_color">#50b1e7</color>
+    <color name="group_text_blue">#50b1e7</color>
+    <color name="group_tab_check">#50B1E7</color>
+    <color name="group_tab_not_check">#5E7186</color>
+    <color name="group_item_public_normal">#578CA9</color>
+    <color name="group_item_public_press">#83C5EA</color>
+    <color name="group_item_stroke_normal">#2badf1</color>
+    <color name="group_item_stroke_press">#f2f2f2</color>
+    <color name="group_item_public_view_normal">#83C5EA</color>
+    <color name="group_item_public_view_press">#50B1E7</color>
+    <color name="group_item_left_view_normal">#50b1e7</color>
+    <color name="group_item_left_view_press">#349cd6</color>
+    <color name="group_fragment_bar_bg">#405062</color>
+    <color name="group_bar_blue_bg">#0FADE9</color>
+    <color name="group_rank_up">#e16d6f</color>
+    <color name="group_rank_down">#7bc69c</color>
+    <color name="group_dialog_btn_bg_ok">#2d5087</color>
+    <color name="group_dialog_btn_bg_cancle">#8f94a7</color>
+    <color name="gray">#B0C4DE</color>
+
+    <!-- 挑战赛 -->
+    <color name="challenge_text_color1">#ffffff</color>
+    <color name="challenge_text_color2">#f4f700</color>
+    <color name="challenge_text_color3">#000000</color>
+
+    <color name="text_color2">#ffffff</color>
+
+</resources>

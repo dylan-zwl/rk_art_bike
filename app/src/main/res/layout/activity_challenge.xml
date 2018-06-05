@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/challenge_mode_5"
+            android:layout_width="@dimen/challenge_with"
+            android:layout_height="@dimen/challenge_height"
+            android:background="@drawable/challenge_mode_5" />
+
+        <Button
+            android:id="@+id/challenge_mode_10"
+            android:layout_width="@dimen/challenge_with"
+            android:layout_height="@dimen/challenge_height"
+            android:background="@drawable/challenge_mode_10" />
+
+        <Button
+            android:id="@+id/challenge_mode_time_20"
+            android:layout_width="@dimen/challenge_with"
+            android:layout_height="@dimen/challenge_height"
+            android:background="@drawable/challenge_mode_time_20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="@dimen/challenge_with"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_line1_left_margin"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/LinearLayout1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/challenge_with"
+            android:layout_height="@dimen/challenge_height"
+            android:background="@drawable/challenge_people_bg" >
+
+            <TextView
+                android:id="@+id/challenge_people_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/challenge_people_tx1"
+                android:textColor="@color/challenge_text_color1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/challenge_people_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/challenge_people_count"
+                android:layout_marginRight="4dp"
+                android:layout_toLeftOf="@id/challenge_people_tx"
+                android:text=""
+                android:textColor="@color/challenge_text_color2"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/challenge_people_ic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/challenge_people" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/challenge_people_ic"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/challenge_people_ic"
+                android:text="@string/challenge_people_tx2"
+                android:textColor="@color/challenge_text_color1"
+                android:textSize="33sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/challenge_height"
+                android:layout_weight="1"
+                android:background="@drawable/challenge_failed_percent_bg" >
+
+                <TextView
+                    android:id="@+id/challenge_failed_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="4dp"
+                    android:text=""
+                    android:textColor="@color/challenge_text_color2"
+                    android:textSize="50sp" />
+
+                <ImageView
+                    android:id="@+id/challenge_failed_percent_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/challenge_failed_percent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/challenge_failed_percent_ic"
+                    android:layout_toRightOf="@id/challenge_failed_percent_ic"
+                    android:text="@string/challenge_failed_percent"
+                    android:textColor="@color/challenge_text_color1"
+                    android:textSize="23sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/challenge_height"
+                android:layout_weight="1"
+                android:background="@drawable/challenge_success_percent_bg" >
+
+                <TextView
+                    android:id="@+id/challenge_success_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="4dp"
+                    android:text=""
+                    android:textColor="@color/challenge_text_color2"
+                    android:textSize="50sp" />
+
+                <ImageView
+                    android:id="@+id/challenge_success_percent_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/challenge_success_percent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/challenge_success_percent_ic"
+                    android:layout_toRightOf="@id/challenge_success_percent_ic"
+                    android:text="@string/challenge_success_percent"
+                    android:textColor="@color/challenge_text_color1"
+                    android:textSize="23sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/challenge_starts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/challenge_start"
+            android:gravity="center"
+            android:text="@string/challenge_starts"
+            android:textColor="@color/challenge_text_color1"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="@dimen/main_line1_left_margin"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@id/LinearLayout2"
+        android:background="@null" >
+
+        <ListView
+            android:id="@+id/challenge_rank_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>

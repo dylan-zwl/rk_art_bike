@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_power_selection"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <RadioGroup
+            android:id="@+id/ctl_hz_power_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/power_220"
+                android:checked="true"
+                android:text="220V" />
+
+            <RadioButton
+                android:id="@+id/power_110"
+                android:layout_marginLeft="60px"
+                android:text="110V" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_rated_voltage"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_rated_voltage"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_rated_current"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_rated_current"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_rated_speed"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_rated_speed"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:id="@+id/admin_default_speed"
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_overload_current"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_overload_current"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_rotor_winding"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_rotor_winding"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            android:maxLength="4" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_cutoff_current"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_cutoff_current"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_min_speed"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_min_speed"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_max_speed"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_max_speed"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_acceleration"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_acceleration"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_deceleration"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_deceleration"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_max_slope"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_max_slope"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_min_speed_than"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_min_speed_than"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_mid_speed_than"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_mid_speed_than"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_max_speed_than"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_max_speed_than"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/settings_citem_w"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ctl_roller_speed_than"
+            android:textColor="#11586f"
+            android:textSize="@dimen/settings_title_size" />
+
+        <EditText
+            android:id="@+id/ctl_roller_speed_than"
+            style="@style/setting_admin_maintenance_edit_style"
+            android:imeOptions="actionDone"
+            android:maxLength="4"
+            android:numeric="decimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_h"
+        android:layout_marginTop="@dimen/settings_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/underctl_hz_save"
+            android:layout_width="@dimen/settings_mitem_w"
+            android:layout_height="match_parent"
+            android:text="@string/settings_save"
+            android:textSize="@dimen/settings_title_size" />
+    </LinearLayout>
+
+</LinearLayout>

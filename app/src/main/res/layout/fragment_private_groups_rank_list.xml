@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian" >
+
+    <RelativeLayout
+        android:id="@+id/ll_group_rank_me"
+        android:layout_width="98dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="14dp" >
+
+        <RadioGroup
+            android:id="@+id/rg_group_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_rank_distance"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/by_distance"
+                android:textColor="@drawable/group_rank_tab_text_selector"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_rank_time"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/by_time"
+                android:textColor="@drawable/group_rank_tab_text_selector"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_rank_speed"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/by_speed"
+                android:textColor="@drawable/group_rank_tab_text_selector"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_rank_calorie"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/by_calorie"
+                android:textColor="@drawable/group_rank_tab_text_selector"
+                android:textSize="@dimen/textsize20" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_group_rank_listview_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_group_me"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/ll_group_rank_me"
+        android:background="@drawable/group_rank_listview_bg" >
+
+        <include
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            layout="@layout/item_group_rank"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listview_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout_header"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="2dp"
+            android:fastScrollEnabled="true"
+            android:focusable="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/group_rank_direction_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ll_group_rank_me"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/ll_group_rank_me"
+        android:src="@drawable/group_rank_direction_first"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/group_rank_direction_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_rank_direction_first"
+        android:layout_marginTop="85dp"
+        android:layout_toLeftOf="@+id/ll_group_rank_me"
+        android:src="@drawable/group_rank_direction_second"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/group_rank_direction_thrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_rank_direction_second"
+        android:layout_marginTop="85dp"
+        android:layout_toLeftOf="@+id/ll_group_rank_me"
+        android:src="@drawable/group_rank_direction_thrid"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/group_rank_direction_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_rank_direction_thrid"
+        android:layout_marginTop="85dp"
+        android:layout_toLeftOf="@+id/ll_group_rank_me"
+        android:src="@drawable/group_rank_direction_four"
+        android:visibility="invisible" />
+
+</RelativeLayout>

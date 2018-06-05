@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:orientation="vertical"
+    android:scrollbarFadeDuration="0"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:text="@string/admin_machine_speed_setting"
+            android:textColor="#11586f"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_min_speed_km"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_min_speed_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_max_speed_km"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_max_speed_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_damping_speed_km"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_damping_speed_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+
+            <TextView
+                android:id="@+id/admin_default_speed"
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_default_speed_km"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_default_speed_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:text="@string/admin_machine_slope_setting"
+            android:textColor="#11586f"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_min_slope"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_min_slope_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:inputType="numberSigned|numberDecimal"
+                android:maxLength="4" />
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_max_slope"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_max_slope_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_damping_slope"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_damping_slope_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+
+            <TextView
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/admin_machine_default_slope"
+                android:textColor="#11586f"
+                android:textSize="@dimen/settings_title_size" />
+
+            <EditText
+                android:id="@+id/admin_default_slope_ed"
+                style="@style/setting_admin_maintenance_edit_style"
+                android:imeOptions="actionDone"
+                android:maxLength="4"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_h"
+            android:layout_marginTop="@dimen/settings_margin_top"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/machine_setting_Save"
+                android:layout_width="@dimen/settings_mitem_w"
+                android:layout_height="match_parent"
+                android:text="@string/settings_save"
+                android:textSize="@dimen/settings_title_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

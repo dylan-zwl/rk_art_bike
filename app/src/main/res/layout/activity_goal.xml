@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="@drawable/background_top"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="460px"
+        android:layout_gravity="top" >
+
+        <LinearLayout
+            android:id="@+id/goal_screen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goal_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="66px"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/goal_activity_title_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/goal_seekbar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130px"
+                        android:layout_marginTop="108px"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/goal_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/goal_activity_value_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/goal_seekbar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="62px"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/goal_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15px"
+                            android:background="@drawable/goal_activity_sub" />
+
+                        <SeekBar
+                            android:id="@+id/goal_seekbar"
+                            android:layout_width="637px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15px"
+                            android:layout_marginRight="15px"
+                            android:maxHeight="44px"
+                            android:minHeight="44px"
+                            android:paddingLeft="8px"
+                            android:paddingRight="8px"
+                            android:progressDrawable="@drawable/goal_time_seekbar_style"
+                            android:thumb="@drawable/goal_time_thumb" />
+
+                        <Button
+                            android:id="@+id/goal_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15px"
+                            android:layout_marginTop="15px"
+                            android:background="@drawable/goal_activity_add" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="84px"
+                    android:layout_marginTop="50px"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/goal_next"
+                        android:layout_width="@dimen/main_icon3_with"
+                        android:layout_height="@dimen/main_icon1_height"
+                        android:background="@drawable/next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/goal_screen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="66px"
+                android:gravity="center_horizontal"
+                android:text="@string/goal_start_title"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/goal_activity_title_size" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/goal_pre"
+                        android:layout_width="@dimen/main_icon3_with"
+                        android:layout_height="@dimen/main_icon1_height"
+                        android:background="@drawable/pre" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125px"
+                    android:layout_marginTop="40px"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/goal_edit_layout"
+                        android:layout_width="470px"
+                        android:layout_height="52px"
+                        android:background="@drawable/register_edit"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/goal_edit_title"
+                            style="@style/goal_edit_hint_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                        <EditText
+                            android:id="@+id/goal_edit"
+                            style="@style/goal_edit_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionDone"
+                            android:numeric="integer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/goal_edit_age_layout"
+                        android:layout_width="470px"
+                        android:layout_height="52px"
+                        android:layout_marginTop="18px"
+                        android:background="@drawable/register_edit"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/goal_edit_age_title"
+                            style="@style/goal_edit_hint_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/goal_age_hint" />
+
+                        <EditText
+                            android:id="@+id/goal_edit_age"
+                            style="@style/goal_edit_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionDone"
+                            android:numeric="integer"
+                            android:text="20" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/goal_edit_weight_layout"
+                        android:layout_width="470px"
+                        android:layout_height="52px"
+                        android:layout_marginTop="18px"
+                        android:background="@drawable/register_edit"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/goal_edit_weight_title"
+                            style="@style/goal_edit_hint_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/goal_weight_hint" />
+
+                        <EditText
+                            android:id="@+id/goal_edit_weight"
+                            style="@style/goal_edit_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionDone"
+                            android:numeric="integer"
+                            android:text="65" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90px"
+                    android:layout_marginTop="43px"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/goal_start"
+                        android:layout_width="180px"
+                        android:layout_height="186px"
+                        android:background="@drawable/sureregister"
+                        android:text="@string/start"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/start_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/goal_page_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/goal_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/page_1"
+                android:layout_width="31px"
+                android:layout_height="23px"
+                android:background="@drawable/goal_radiobutton"
+                android:button="@null"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/page_2"
+                android:layout_width="31px"
+                android:layout_height="23px"
+                android:background="@drawable/goal_radiobutton"
+                android:button="@null"
+                android:checked="false" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

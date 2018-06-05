@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/group_fragment_bar_bg" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="117dp"
+            android:gravity="center"
+            android:text="@string/total_people"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+
+        <TextView
+            android:id="@+id/tv_public_group_total_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/textView2"
+            android:gravity="center"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+
+        <TextView
+            android:id="@+id/tv_groupname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/textsize24" />
+        
+        <Button 
+            android:id="@+id/btn_join_public_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/join_group"
+            android:layout_marginRight="20dp"
+            android:textSize="@dimen/textsize24"
+            android:textColor="@android:color/white"
+            android:background="@drawable/group_btn_now_add_selector"
+            android:padding="10dp"/>
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginTop="9dp"
+        android:divider="@null"
+        android:dividerHeight="5dp" />
+
+</LinearLayout>

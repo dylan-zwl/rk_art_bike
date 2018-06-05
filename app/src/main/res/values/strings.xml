@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tapc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 主页 -->
+    <string name="login">登录</string>
+    <string name="goaldistance">距离</string>
+    <string name="goaltime">时间</string>
+    <string name="goalcalorie">卡路里</string>
+    <string name="language">语言</string>
+    <string name="help">瓦特模式</string>
+    <string name="report">报告</string>
+    <string name="virtual">虚拟场景</string>
+    <string name="exercise">运动程序</string>
+    <string name="heart">心跳</string>
+    <string name="altitude">速度</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="pause">暂停</string>
+    <string name="speed">瓦特</string>
+    <string name="incline">阻尼</string>
+    <string name="goal">目标</string>
+    <string name="news">新闻</string>
+    <string name="video">视频</string>
+    <string name="music">音乐</string>
+    <string name="weather">天气</string>
+    <string name="datetime">时间</string>
+    <string name="internet">互联网</string>
+    <string name="app">应用</string>
+    <string name="game">游戏</string>
+    <string name="store">购物</string>
+    <string name="wifi">无线网络</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="cannot_operate">正在运动中， 不能操作！</string>
+    <string name="settings">设置</string>
+    <string name="keyboard_input_str">输入值： </string>
+    <string name="keyvalue_error">输入值超范围</string>
+    <string name="workout_ctl_title">设置: %d</string>
+
+    <!-- 应用 -->
+    <string name="app_exit">一键退出</string>
+    <string name="clear_app_data">清除缓存</string>
+    <string name="not_enough_storage">储存空间不足，是否清除？</string>
+    <string name="app_clear_completed">清除完成</string>
+
+    <!-- 设置 -->
+    <string name="app_settings">应用设置</string>
+    <string name="system_settings">系统设置</string>
+    <string name="xiakong_settings">下控参数</string>
+    <string name="machine_settings">机器参数</string>
+    <string name="wifi_setting">wifi设置</string>
+    <string name="bluetooth_setting">蓝牙设置</string>
+    <string name="datetime_setting">时间设置</string>
+    <string name="not_install">未安装</string>
+    <string name="install_app">安装应用</string>
+    <string name="uninstall_app">卸载应用</string>
+
+    <!-- 系统设置 -->
+    <string name="admin_update_version">升级:</string>
+    <string name="admin_update_os">OS升级</string>
+    <string name="admin_update_mcu">MCU升级</string>
+    <string name="admin_update_apku">apk U盘升级</string>
+    <string name="admin_update_apk_online">apk在线升级</string>
+    <string name="update_file_not_exit">没找到升级文件</string>
+    <string name="admin_third_app_install_manager">应用安装管理:</string>
+    <string name="admin_erp">待机:</string>
+    <string name="admin_detectperson">无人检测:</string>
+    <string name="admin_test">测试:</string>
+    <string name="scan_qr_setting">扫码:</string>
+    <string name="rfid_setting">刷卡:</string>
+    <string name="admin_third_app_install_ban">禁止</string>
+    <string name="admin_third_app_install_allow">允许</string>
+    <string name="admin_open">打开</string>
+    <string name="admin_close">关闭</string>
+    <string name="setting_slope_calibration">坡度校准:</string>
+    <string name="start_slope_calibration">开始校准</string>
+    <string name="version">版本:</string>
+    <string name="device_used">设备信息:</string>
+    <string name="device_run_distance">总距离:</string>
+    <string name="device_run_time">总时间:</string>
+    <string name="firm">厂商:</string>
+    <string name="under_control_number">下控:</string>
+    <string name="controller_Firmware">控制器固件:</string>
+    <string name="mcu_firmware">MCU 固件:</string>
+    <string name="backlight">背光:</string>
+    <string name="calibrationing_msg">校准中</string>
+    <string name="calibrationed_msg">校准完成</string>
+    <string name="settings_save">保存设置</string>
+    <string name="a_key_install_app">一键安装</string>
+    <string name="a_key_uninstall_app">一键卸载</string>
+    <string name="settings_restore">恢复出厂设置:</string>
+    <string name="enter_reset">进入备份和重置</string>
+    <string name="settings_service">服务器设置</string>
+
+    <!-- 机器设置 -->
+    <string name="admin_machine_speed_setting">瓦特设置:</string>
+    <string name="admin_machine_min_speed_km">最小瓦特(瓦):</string>
+    <string name="admin_machine_max_speed_km">最大瓦特(瓦):</string>
+    <string name="admin_machine_damping_speed_km">瓦特增减幅(瓦):</string>
+    <string name="admin_machine_default_speed_km">初始瓦特(瓦):</string>
+    <string name="admin_machine_slope_setting">阻尼设置：</string>
+    <string name="admin_machine_min_slope">最小阻尼(%):</string>
+    <string name="admin_machine_max_slope">最大阻尼(%):</string>
+    <string name="admin_machine_damping_slope">阻尼增减幅(%):</string>
+    <string name="admin_machine_default_slope">初始阻尼(%):</string>
+    <string name="admin_machine_input_error">此输入值不合法,请重新输入</string>
+    <string name="admin_machine_set_success">设置成功</string>
+    <string name="admin_machine_set_fault">设置的参数有误，设置失败</string>
+
+    <!-- 下控参数设置 -->
+    <string name="ctl_machine">下控机器:</string>
+    <string name="ctl_nm_machine">交流电机</string>
+    <string name="ctl_hz_machine">直流电机</string>
+    <!-- 宁茂 -->
+    <string name="ctl_nm_motor_belt_diameter">电机皮带盘直径(mm):</string>
+    <string name="ctl_nm_roller_diameter">滚筒直径 (mm):</string>
+    <string name="ctl_nm_drum_pulley_diameter">滚筒皮带盘直径(mm):</string>
+    <!-- 海振 -->
+    <string name="ctl_power_selection">电源选择:</string>
+    <string name="ctl_rated_voltage">额定电压(伏特):</string>
+    <string name="ctl_rated_current">额定电流(安培):</string>
+    <string name="ctl_rated_speed">额定转速(转):</string>
+    <string name="ctl_overload_current">过载电流(安培):</string>
+    <string name="ctl_rotor_winding">转子绕阻电阻(欧姆):</string>
+    <string name="ctl_cutoff_current">截止电流(安倍):</string>
+    <string name="ctl_min_speed">最低时速(Km/h):</string>
+    <string name="ctl_max_speed">最高时速(Km/h):</string>
+    <string name="ctl_acceleration">加速度(Km/h2):</string>
+    <string name="ctl_deceleration">减速度(Km/h2):</string>
+    <string name="ctl_max_slope">最大坡度值(度):</string>
+    <string name="ctl_min_speed_than">最低速度比(mm):</string>
+    <string name="ctl_mid_speed_than">中间速度比(mm):</string>
+    <string name="ctl_max_speed_than">最高速度比(mm):</string>
+    <string name="ctl_roller_speed_than">滚筒速度比(度):</string>
+
+    <!-- 场景跑 -->
+    <string name="select_gradient">请选择平均倾斜度</string>
+    <string name="change_play_list">切换至播放列表</string>
+    <string name="now_play">现在播放:</string>
+    <string name="will_play">即将播放:</string>
+
+    <!-- 目标 -->
+    <string name="warmUp_time">热身时间</string>
+    <string name="relax_time">放松时间</string>
+    <string name="goal_sports">运动目标</string>
+    <string name="goal_time">目标时间</string>
+    <string name="goal_distance">目标距离</string>
+    <string name="goal_calorie">目标卡路里</string>
+    <string name="goal_start_title">按“开始”启动设备</string>
+    <string name="goal_time_title">定义你的目标运动时间</string>
+    <string name="goal_distance_title">定义你的目标运动距离</string>
+    <string name="goal_calorie_title">定义你的目标运动卡路里</string>
+    <string name="goal_age_hint">年龄（岁）：</string>
+    <string name="goal_weight_hint">体重（公斤）：</string>
+    <string name="goal_time_hint">时间（分钟）：</string>
+    <string name="goal_distance_hint">距离（千米）：</string>
+    <string name="goal_calorie_hint">卡路里（kcal）：</string>
+    <string name="goal_hint">（单击输入）</string>
+    <string name="goal_time_value">%1$s min</string>
+    <string name="goal_distance_value">%1$s km</string>
+    <string name="goal_calorie_value">%1$s kcal</string>
+
+    <!-- 语言 -->
+    <string name="language_title">语  言  选  择</string>
+
+    <!-- 程序 -->
+    <string name="program_jog">慢跑</string>
+    <string name="program_warm">热身</string>
+    <string name="program_interval">间隙</string>
+    <string name="program_slope">斜坡跑</string>
+    <string name="program_start">开始</string>
+    <string name="program_p01">W1</string>
+    <string name="program_p02">W2</string>
+    <string name="program_p03">W3</string>
+    <string name="program_p04">W4</string>
+    <string name="program_p05">W5</string>
+    <string name="program_p06">W6</string>
+    <string name="program_p07">I1</string>
+    <string name="program_p08">I2</string>
+    <string name="program_p09">I3</string>
+    <string name="program_p10">强度跑</string>
+    <string name="program_p11">中年人跑</string>
+    <string name="program_p12">老年人跑</string>
+    <string name="program_time">运动时间: %d 分钟</string>
+
+    <!-- 帮助 -->
+    <string name="help_info">目标运动模式：分别以为时间长短、距离大小或者卡路里多少作为运动的结束标志\n\n\n程序运动模式：每种模式都有固定的时间和阶段，每个阶段都有预设的坡度\n\n\nVA场景：任何模式的运动都可以切换到实景，镜头的快慢由当前速度决定</string>
+
+    <!-- 运动结果 -->
+    <string name="result_title">你的成绩</string>
+    <string name="result_time">持续时间</string>
+    <string name="result_time_unit">分钟</string>
+    <string name="result_speed">平均速度</string>
+    <string name="result_speed_unit">千米/小时</string>
+    <string name="result_calorie">卡路里</string>
+    <string name="result_calorie_unit">千卡</string>
+    <string name="result_distance_unit">千米</string>
+    <string name="sports_record">运动记录</string>
+    <string name="record_datetime">日期</string>
+    <string name="record_distance">距离</string>
+    <string name="record_time">时间</string>
+    <string name="record_calorie">卡路里</string>
+    <string name="record_statistics">统计</string>
+
+    <!-- 登陆，注册，忘记密码 -->
+    <string name="user_loggin_success">  登录成功  !</string>
+    <string name="user_login">登录</string>
+    <string name="user_logout">退出登录</string>
+    <string name="user_register">注册</string>
+    <string name="basic_information">基本信息</string>
+    <string name="user_name">用户名 : </string>
+    <string name="user_password">密码 : </string>
+    <string name="user_sure_password">确认密码 : </string>
+    <string name="title_sure_register">按“确定”完成注册 </string>
+    <string name="user_nick">昵称   : </string>
+    <string name="user_email">邮箱   : </string>
+    <string name="user_weight">体重(公斤) : </string>
+    <string name="user_sex_man">男</string>
+    <string name="user_sex_woman">女</string>
+    <string name="sure_register">确定</string>
+    <string name="error_username_or_password">用户名或者密码错误,请重新输入</string>
+    <string name="error_no_user">本机没有此用户记录，请连网登录或注册用户</string>
+    <string name="error_empty_username_or_paswword">账户名或者密码不能为空,请重新输入</string>
+    <string name="error_empty_username">用户ID或邮箱不能为空,请重新输入</string>
+    <string name="error_empty_password">密码不能为空,请重新输入</string>
+    <string name="error_empty_sure_password">确认密码不能为空,请重新输入</string>
+    <string name="error_not_equal_password">确认密码和密码不相等,请重新输入</string>
+    <string name="error_empty_user_id">用户ID不能为空,请重新输入</string>
+    <string name="error_user_size">用户ID字符长度不够</string>
+    <string name="error_empty_user_nike">昵称不能为空,请重新输入</string>
+    <string name="error_empty_email">邮箱不为空,请重新输入</string>
+    <string name="error_format_email">邮箱格式不正确,请重新输入</string>
+    <string name="error_empty_verification_code">验证码不为空,请重新输入</string>
+    <string name="error_machine_info">获取机器信息不正确</string>
+    <string name="error_email_not_registered">该邮箱未注册,请重新输入</string>
+    <string name="error_verification_code">验证码不正确,请重新输入</string>
+    <string name="error_empty_age">年龄数据不为空,请重新输入</string>
+    <string name="error_ten_ninety_age">年龄可输入范围为(10~99),请重新输入</string>
+    <string name="error_empty_weight">体重数据不为空,请重新输入</string>
+    <string name="error_fifty_two_weight">体重可输入范围为(4~181)kg,请重新输入</string>
+    <string name="erro_the_input_data_is_wrong">输入的数据有误</string>
+    <string name="toast_register_success">注册成功</string>
+    <string name="toast_has_been_register">该账号已注册,请重新输入</string>
+    <string name="need_loggin_user">请先登录用户！</string>
+
+    <!-- 网络连接状态 -->
+    <string name="net_connect">网络已连接</string>
+    <string name="net_unconnect">网络已断开</string>
+    <string name="net_unconnected">网络未连接</string>
+    <string name="toast_connect_server_failure">连接服务器超时,请稍后再试</string>
+
+    <!-- 自更新 -->
+    <string name="new_version">发现新版本</string>
+    <string name="software_update_date">软件更新日期</string>
+    <string name="version_update">软件版本更新</string>
+    <string name="version_latest">当前是最新版本</string>
+    <string name="now_update">立即更新</string>
+    <string name="after_update">以后再说</string>
+    <string name="cancle">取消</string>
+    <string name="install_start">开始安装</string>
+    <string name="try_again">重试</string>
+    <string name="goon">继续</string>
+    <string name="confirm">确认</string>
+
+    <!-- 群组 -->
+    <string name="groups">互联竞赛</string>
+    <string name="create_groups">创建群组</string>
+    <string name="add_groups">加入群组</string>
+    <string name="add_private_group">加入私人群</string>
+    <string name="add_public_group">加入公共群</string>
+    <string name="now_create">立即创建</string>
+    <string name="input_group_name">输入名称：</string>
+    <string name="input_group_invitation_code">输入邀请码</string>
+    <string name="now_add">立即加入</string>
+    <string name="creat_success">创建成功</string>
+    <string name="now_in">马上进入</string>
+    <string name="group_info">群组信息</string>
+    <string name="ranking_list">排行榜</string>
+    <string name="by_distance">按距离</string>
+    <string name="by_time">按时间</string>
+    <string name="by_speed">按速度</string>
+    <string name="by_calorie">按卡路里</string>
+    <string name="strength">力量</string>
+    <string name="group_member_name">姓名</string>
+    <string name="group_member_distance">距离</string>
+    <string name="group_member_time">时间</string>
+    <string name="group_member_speed">速度</string>
+    <string name="group_member_calorie">卡路里</string>
+    <string name="public_gourp_list">公共群组列表</string>
+    <string name="random_add">随机加入</string>
+    <string name="group_name">群名称</string>
+    <string name="user_num">人数</string>
+    <string name="direct_add">直接加入</string>
+    <string name="time">时间</string>
+    <string name="calorie">卡路里</string>
+    <string name="distance">距离</string>
+    <string name="total_people">总人数:</string>
+    <string name="loading">加载中...</string>
+    <string name="joining">加入中...</string>
+    <string name="join_fail">加入失败</string>
+    <string name="creatting">创建中...</string>
+    <string name="creat_fail">创建失败</string>
+    <string name="exit_fail">退出失败</string>
+    <string name="please_input_group_name">请输入群名称</string>
+    <string name="please_input_invitation_code">请输入邀请码</string>
+    <string name="private_group">私人群: </string>
+    <string name="invitation_code">邀请码: </string>
+    <string name="error_invitation_code">邀请码错误</string>
+    <string name="exit_group">确定退出该群？</string>
+    <string name="toast_start_runing_first">请先开始运动</string>
+    <string name="join_us">加入我们 </string>
+    <string name="user_exit">已退出</string>
+    <string name="is_private">私密分组</string>
+    <string name="join_group">马上加入</string>
+    <string name="has_liked">已经点赞过</string>
+
+    <!-- 挑战赛 -->
+    <string name="challenge_title">挑战赛</string>
+    <string name="challenge_result_rank_titile">网络排名</string>
+    <string name="challenge_result_calorie_titile">卡路里</string>
+    <string name="challenge_result_time_titile">时间</string>
+    <string name="challenge_result_distance_titile">距离</string>
+    <string name="challenge_result_win_user_titile">打败人数</string>
+    <string name="challenge_result_close">确定</string>
+    <string name="challenge_result_failed">你已经放弃挑战</string>
+    <string name="challenge_people_tx1">人</string>
+    <string name="challenge_people_tx2">参加挑战</string>
+    <string name="challenge_failed_percent">中途放弃</string>
+    <string name="challenge_success_percent">完成挑战</string>
+    <string name="challenge_starts">开始挑战</string>
+
+    <!-- bike -->
+    <string name="bike_speed">速度</string>
+    <string name="bike_rpm">转速</string>
+
+    <!-- 设置 -->
+    <string name="watt_value_title">瓦特值: %d w</string>
+    <string name="watt_time_title">运动时间: %d min</string>
+    <string name="load_level_title">Load: %d </string>
+    <string name="load_pwn_title">Pwm: %d </string>
+
+    <!-- 错误 -->
+    <string name="error_lifter_tx">升降机错误，是否取消显示？</string>
+
+    <!-- 扫码 -->
+    <string name="scan_code">扫码登录</string>
+    <string name="scan_msg">扫码登录</string>
+    <string name="switch_login">切换登录</string>
+    <string name="registered_device_fail">注册设备失败</string>
+    <string name="registered_device">请先注册设备</string>
+    <string name="sport_plan_stage">阶段 </string>
+    <string name="quit">退出</string>
+    <string name="password">密码错误</string>
+    <string name="refresh_qrcode">点击刷新</string>
+    <string name="login_fail">登录失败,请重新登录！</string>
+
+    <!-- rfid -->
+    <string name="rfid_title">欢迎</string>
+    <string name="rfid_user_login_success">登录成功</string>
+    <string name="rfid_user_login_failed">会员卡已失效</string>
+    <string name="rfid_need_login">请刷卡使用</string>
+    <string name="rfid_device_connect_failed">刷卡无法连接！</string>
+    <string name="rfid_device_malfunction">USB连接不上！</string>
+    <string name="rfid_device_connecting">连接中，\n请稍后刷卡。</string>
+    <string name="rfid_device_unconnect">网络未连接，\n请检查网络！</string>
+    <string name="tcp_connect_failed">登录不成功，\n请检查网络!</string>
+    <string name="rfid_prompt_tx">请在跑步机触控面板刷手环登录</string>
+    <string name="rfid_reconnect">重新连接</string>
+    <string name="rfid_server_connecting">正在登录中...</string>
+    <string name="connect_server_failure">连接服务器超时,请稍后再试</string>
+
+    <!-- 选择类型 -->
+    <string name="device_sel">设备选择</string>
+    <string name="device_sel_failed">设置设备类型失败，请重设</string>
+    <string name="bike_b8900ut">立式健身车</string>
+    <string name="bike_b8900et">椭圆机</string>
+    <string name="bike_b8900rt">卧式健身车</string>
+
+    <string name="set_device_id">设备号</string>
+    <string name="set_server_url">网址</string>
+    <string name="set_domain_name">域名</string>
+    <string name="set_port">端口</string>
+    <string name="set_phone_number">服务号码</string>
+    <string name="login_user_name">用户名</string>
+    <string name="login_user_password">密码</string>
+    <string name="save_reboot">保存设置成功，五秒后自动重启软件</string>
+</resources>

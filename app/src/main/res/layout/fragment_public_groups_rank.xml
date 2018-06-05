@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+   >
+    
+     <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="98dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="14dp" >
+
+        <RadioGroup
+            android:id="@+id/rg_group_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_public_rank_distance"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/by_distance"
+                android:textColor="@color/group_text_color"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_public_rank_time"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/by_time"
+                android:textColor="@color/group_text_color"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_public_rank_speed"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/by_speed"
+                android:textColor="@color/group_text_color"
+                android:textSize="@dimen/textsize20" />
+
+            <RadioButton
+                android:id="@+id/rb_public_rank_calorie"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/group_rank_tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/by_calorie"
+                android:textColor="@color/group_text_color"
+                android:textSize="@dimen/textsize20" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    
+    <ListView
+        android:id="@+id/listview_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/relativeLayout1"
+        android:divider="@null"
+         android:fastScrollEnabled="true"
+		android:focusable="true"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+
+</RelativeLayout>

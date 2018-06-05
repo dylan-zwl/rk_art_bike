@@ -1,0 +1,2318 @@
+[
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_loading_0.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\loading_0.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\add.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_b_97.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\b_97.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_pulic_group.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_pulic_group.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_detail_tab_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_detail_tab_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_video_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\video_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_logo_gz.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\logo_gz.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_scan_code_healthcat_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\scan_code_healthcat_dialog.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_item_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_item_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_38.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_38.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public_groups_info.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_public_groups_info.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sportsdata_btn_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sportsdata_btn_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_add_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\home_add_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program4.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program4.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_language_sel.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\language_sel.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_sub_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_sub_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_failed_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_failed_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sex_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sex_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_btn_setting.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\btn_setting.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blue_unconnect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blue_unconnect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sportresult.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_sportresult.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_video.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\video.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_45.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_45.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program_start_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program_start_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public_groups_rank.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_public_groups_rank.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_5_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_5_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\anim_in.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\anim\\in.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_help.txt.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\help.txt"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_avatar_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_avatar_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_information.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_group_information.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blog_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blog_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_29.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_29.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_login_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\login_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_machine_status_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\machine_status_dialog.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program8_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program8_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_ctrl.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_ctrl.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_device_type2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\device_type2.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tv.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_tv.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_notify.ogg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\notify.ogg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blog_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blog_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_osd_fill.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\osd_fill.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pause.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\pause.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_login_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_login_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rb_tab_bg_check_no.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\rb_tab_bg_check_no.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program9_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program9_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program2.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program2.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_47.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_47.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_time_thumb.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_time_thumb.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_rank.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_rank.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_slot.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\slot.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_aim_bg_pressed.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\aim_bg_pressed.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_challenge_failed_sure.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\challenge_failed_sure.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_join_now_light.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\btn_join_now_light.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_osd_goal.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\osd_goal.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_11.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_11.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\add_group_icon.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_52.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_52.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_return_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\return_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_27.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_27.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\app_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_left_view_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_left_view_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_admin_maintenance_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\admin_maintenance_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_j_03.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\j_03.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_dialog_btn_selector_ok_text.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_dialog_btn_selector_ok_text.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sureregister_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sureregister_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_distance_thumb_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\distance_thumb_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\anim_up_to_down.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\anim\\up_to_down.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_movie_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\movie_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin_system_setting.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_admin_system_setting.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_bg_add_now.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\btn_bg_add_now.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_net_msg_btn_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\net_msg_btn_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_34.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_34.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_record_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\record_item.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_adjust_minus.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\adjust_minus.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_start.ogg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\start.ogg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program6.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program6.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blue_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blue_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_41.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_41.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_challenge_result.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_challenge_result.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_qrcode_healthcat_bg2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_qrcode_healthcat_bg2.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_gradient.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\gradient.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_start_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_start_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_13.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_13.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_va_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\va_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_private_groups.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_add_private_groups.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_seekbar_thumb.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\seekbar_thumb.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_loginbtn_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\loginbtn_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_update.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\update.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_title.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_title.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_activity_add.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_activity_add.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_create_group_success.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\create_group_success.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_9.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_9.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_win_user.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_win_user.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_game_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\game_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_internet_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\internet_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_private_group_success.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_create_private_group_success.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_seekbar.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_seekbar.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scrollbar_vertical.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scrollbar_vertical.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\blue.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_2.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_2.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_25.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_25.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_workoutseekbar_style.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\workoutseekbar_style.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\app_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_help.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\help.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_login_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_login_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_start_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_start_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_start_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\start_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_time_20_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_time_20_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seerbar_progress.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seerbar_progress.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_beeps.ogg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\beeps.ogg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_value.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_value.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_groups.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_add_groups.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_sel_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\device_sel_dialog.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_empty.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\empty.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_success_percent_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_success_percent_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_18.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_18.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program9_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program9_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_msg_error.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_msg_error.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program5_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program5_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_seekbar_define_style.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\seekbar_define_style.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_pre_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\pre_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_login_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_login_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_20.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_20.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_movie_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\movie_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_program.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_thumb_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_thumb_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fan3.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fan3.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_distance_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\distance_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_btn_now_add_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_btn_now_add_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_loginbtn_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\loginbtn_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\anim_down_to_up.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\anim\\down_to_up.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_page1.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\register_page1.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_report_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\report_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_ctrl_add_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_ctrl_add_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sex_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sex_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_people_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_people_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_head_portrait_normal.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_head_portrait_normal.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_dialog_btn_selector_cancle_text.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_dialog_btn_selector_cancle_text.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_code__healthcat_logo.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_code__healthcat_logo.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fill.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fill.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_home_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\home_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_login.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_setting_login.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_direction_first.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_direction_first.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_store_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\store_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_31.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_31.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_alert.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_speed.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_speed.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_15.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_15.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_3.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_3.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_email_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\email_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_unfullscreen.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\unfullscreen.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_set_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_set_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program11_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program11_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program10_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program10_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_btn_random_add_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_btn_random_add_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_32.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_32.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_background_top.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\background_top.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_16.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_16.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\start.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scene_msg_hide.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scene_msg_hide.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_login.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_login.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_adjust_minus_focus.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\adjust_minus_focus.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_challenge_mode_10.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\challenge_mode_10.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_public_group_rank.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_public_group_rank.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_title.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_title.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_17.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_17.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_wifi_connect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\wifi_connect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_third.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_third.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_scene_pager_bg_shape.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\scene_pager_bg_shape.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_video_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\video_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fan1.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fan1.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_sub_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_sub_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_watt_constan.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_watt_constan.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_news_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\news_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_goal.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_goal.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_net_msg_btn_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\net_msg_btn_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_app.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_app.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_music_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\music_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\login.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_internet_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\internet_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_msg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_msg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_setting_but_bg_unpress.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\setting_but_bg_unpress.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_listview_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_listview_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_iv_add_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_iv_add_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program8.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program8.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_register_edit.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\register_edit.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calorle.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calorle.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_direction_four.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_direction_four.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_listview_direction.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_listview_direction.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_rfid.ogg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\rfid.ogg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_uninstall_app.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_uninstall_app.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_7.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_7.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_radiobutton.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_radiobutton.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_input_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\input_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_challenge_mode_time_20.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\challenge_mode_time_20.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_14.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_14.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_join_now_dark.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\btn_join_now_dark.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_start_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\start_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rfid_reconnect.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\rfid_reconnect.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_4.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_4.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program4_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program4_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dialog_btn_bg_press.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\dialog_btn_bg_press.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_42.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_42.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program3_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program3_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_shape.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_shape.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_language_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\language_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_edit.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_edit.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_osd_slot.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\osd_slot.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wifi.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\wifi.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_second.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_second.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ethernet_unconnect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\ethernet_unconnect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_add_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\add_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_help_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\help_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_10_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_10_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_distance.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_distance.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_failed_sure_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_failed_sure_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blue_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blue_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_register_user_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\register_user_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_install_app.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_install_app.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_5_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_5_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program12_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program12_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_start_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_start_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_calorie.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_calorie.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_grid_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\app_grid_item.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_music_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\music_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_exercise_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\exercise_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program11_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program11_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scenerun.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_scenerun.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_msg_success.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_msg_success.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_register_user.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\register_user.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_help_en.txt.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\help_en.txt"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_activity_sub.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_activity_sub.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_shape_first.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_shape_first.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sportsdata_btn.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\sportsdata_btn.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_second.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_second.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_groups_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\groups_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_6.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_6.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_challenge.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_challenge.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_5.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_5.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_public_group_member.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_public_group_member.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_like_before.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\btn_like_before.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_tv_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\tv_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program9.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program9.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_adjust_add_focus.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\adjust_add_focus.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program3_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program3_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_ctrl_sub_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_ctrl_sub_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_28.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_28.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_heart_rate.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\heart_rate.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sureregister_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sureregister_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_head_portrait_press.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_head_portrait_press.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_workout_ctl.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_workout_ctl.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_private_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\add_private_group_icon.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stop.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\stop.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_rank_tab_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_rank_tab_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_add_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_add_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program_start.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program_start.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_box_popup_empty.9.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\box_popup_empty.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_dialog_btn_selector_ok.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_dialog_btn_selector_ok.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_left_view_layer.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_left_view_layer.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exercise.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\exercise.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_30.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_30.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_43.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_43.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_user_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_user_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_detail.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_group_detail.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_distance_seekbar_style.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_distance_seekbar_style.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ethernet_connect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\ethernet_connect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_device.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_setting_device.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_internet.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\internet.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_53.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_53.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_minus_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\home_minus_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_ctl_hz_set.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\ctl_hz_set.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\anim_out.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\anim\\out.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_reconnect_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_reconnect_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_safekey.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\safekey.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_next_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\next_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_slot.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_slot.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_device_type1.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\device_type1.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_volume_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\volume_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_bg_mian.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_bg_mian.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_challenge_mode_5.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\challenge_mode_5.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_create_private_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\create_private_group_icon.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program1_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program1_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_wifi_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\wifi_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_39.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_39.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calender.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\calender.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_public_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\add_public_group_icon.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_add_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\add_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_public_group_list.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_public_group_list.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_groups_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\groups_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program3.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program3.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_distance.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\distance.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_register_user_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\register_user_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_ctrl_add_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_ctrl_add_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_thumb_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_thumb_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_news_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\news_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_public_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_public_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_net_msg_btn.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\net_msg_btn.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_44.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_44.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_game.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\game.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_net_msg_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\net_msg_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_language.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_language.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calorie_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calorie_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_create_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\create_group_icon.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_challenge_list_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\challenge_list_item.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_language_radiobutton.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\language_radiobutton.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_goal.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_goal.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_help_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\help_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_distence.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\distence.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dialog_btn_bg_ok.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\dialog_btn_bg_ok.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_btn_login_p.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\btn_login_p.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program2_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program2_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_me_shape.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_me_shape.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fan4.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fan4.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program10.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program10.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_listview_bscroll.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_listview_bscroll.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_start.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_start.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_37.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_37.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program4_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program4_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seekbar_thumb_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seekbar_thumb_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program6_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program6_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_empty_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\empty_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_dialog_progress.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\group_dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_refresh_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\refresh_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_launcher.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_rank_tab_text_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_rank_tab_text_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seekbar_fill.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seekbar_fill.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_viewpage.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\register_viewpage.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program5.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program5.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\next.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_scene_gallery_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\scene_gallery_item.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_19.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_19.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_distance.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_distance.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_adjust_add.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\adjust_add.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_page2.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\register_page2.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_12.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_12.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_store_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\store_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\app.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program7.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program7.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_group_rank.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_group_rank.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_group_member.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_group_member.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fan2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fan2.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_8.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_8.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blue_connect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\blue_connect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program2_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program2_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_report_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\report_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_record.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_record.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rfid.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_rfid.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_fill.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_fill.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_calorie.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_calorie.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_groups.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\groups.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_msg_loading.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_msg_loading.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_direction_second.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_direction_second.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_next_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\next_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_success_percent.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_success_percent.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_26.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_26.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calender_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calender_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_va.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\va.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_like_after.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\btn_like_after.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sub_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sub_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_time.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_time.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program12_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program12_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seekbar_slot.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seekbar_slot.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_volume.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\volume.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_add.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_add.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_music.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\music.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_btn_setting_n.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\btn_setting_n.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_edit_bg.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_edit_bg.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_pause_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\pause_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_stop_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\stop_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sub_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sub_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_40.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_40.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program_start_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program_start_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_weather_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\weather_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_volume_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\volume_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_time_20_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_time_20_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_direction_thrid.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_direction_thrid.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_first.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_first.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_set_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_set_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_tamne.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\tamne.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\tv.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program1_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program1_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_game_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\game_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_va_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\va_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program5_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program5_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program1.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program1.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sureregister.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\sureregister.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_page_flag_sel.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\page_flag_sel.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_time_seekbar_style.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_time_seekbar_style.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_fan_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\fan_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_device_type3.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\device_type3.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_time_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\time_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_private_groups_rank_list.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_private_groups_rank_list.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_46.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_46.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_exercise_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\exercise_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_33.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_33.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_like_bg_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_like_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_qrcode_healthcat_bg1.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_qrcode_healthcat_bg1.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_appback.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\appback.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_pre_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\pre_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_language_nosel.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\language_nosel.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_language_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\language_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_people.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_people.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_23.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_23.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_language.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\language.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_shape_thrid.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_shape_thrid.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_wifi_unconnect.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\wifi_unconnect.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_countdown_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\countdown_dialog.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_background.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\background.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_adjust_view.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\adjust_view.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dialog_btn_bg_cancle.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\dialog_btn_bg_cancle.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program1.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_program1.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_sportsdata_btn_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\sportsdata_btn_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_ctrl_sub_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_ctrl_sub_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_first.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_first.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_pause_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\pause_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program10_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program10_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_returns.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\returns.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seekbar_background.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seekbar_background.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_movie.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\movie.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rb_tab_bg_check.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\rb_tab_bg_check.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_empty_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\empty_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_bar.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\menu_bar.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_item_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\app_item_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bg_set_value.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\bg_set_value.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_seekbar_thumb_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\seekbar_thumb_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_add_btn_press.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_add_btn_press.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\news.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_item_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\app_item_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_wifi_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\wifi_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_22.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_22.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_groups.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_groups.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_store.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\store.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_page_flag_nosel.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\page_flag_nosel.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_type_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\app_type_item.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_start_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_start_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_workout_goal.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\workout_goal.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_sub.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_sub.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_time.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_time.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_21.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_21.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_background_bottom.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\background_bottom.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_third.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_third.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_bg2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_bg2.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_stop_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\stop_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_scene_play_descrip_shape.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\scene_play_descrip_shape.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fitness_aim_bt_bg_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\fitness_aim_bt_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_public_view_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_public_view_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_groups_info.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_groups_info.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_24.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_24.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time_set.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\time_set.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_1.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_1.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_calorie_seekbar_style.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_calorie_seekbar_style.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program8_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program8_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_listview_bscroll_dark.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_listview_bscroll_dark.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_failed_percent.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_failed_percent.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_return_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\return_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_btn_selector.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_scene_play_back_shape.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\scene_play_back_shape.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sub.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\sub.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_calorie_thumb.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_calorie_thumb.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_altitude.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\altitude.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_failed_percent_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_failed_percent_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_49.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_49.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calorie_thumb_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calorie_thumb_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_0.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_0.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_btn_login_n.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\btn_login_n.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\time.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calorie_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calorie_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_avatar_bg2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_avatar_bg2.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calender_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calender_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_50.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_50.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_reconnect_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_reconnect_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msg_prompt.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\msg_prompt.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program12.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program12.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program6_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program6_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_weather.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\weather.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_challenge_start.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\challenge_start.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calorie.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\calorie.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_tv_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\tv_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program_time.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_program_time.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_goal_add_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\goal_add_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_leave_group.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\leave_group.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_email_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\email_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_51.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_51.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_login.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\common.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program11.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\program11.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_msg_prompt.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\msg_prompt.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_report.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\report.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scene_play.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_scene_play.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_ctl_nm_set.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\ctl_nm_set.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_img_bg.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\img_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_avatar_bg1.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_avatar_bg1.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_35.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_35.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_calorie_thumb_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\calorie_thumb_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_48.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_48.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_groups.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_create_groups.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_speed.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\speed.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_distance_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\distance_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_distance_thumb_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\distance_thumb_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_failed_sure_d.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_failed_sure_d.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_36.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_36.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_add_btn_normal.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_add_btn_normal.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pre.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\pre.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program7_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program7_down.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_distance_thumb.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\goal_distance_thumb.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_home_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\home_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin_machine_maintenance.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_admin_machine_maintenance.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_user_detail.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_group_user_detail.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginbtn.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\loginbtn.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_10.jpg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_10.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_result_bk.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\result_bk.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_mode_10_u.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_mode_10_u.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_bg_login.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\bg_login.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rfid_prompt.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rfid_prompt.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_btn_setting_p.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\btn_setting_p.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program2.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_program2.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program7_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program7_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iv_avatar_bg_small.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\iv_avatar_bg_small.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_workout.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\workout.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_weather_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\weather_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_login_up.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\login_up.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_item_rank_shape_second.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_item_rank_shape_second.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_dialog_btn_selector_cancle.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_dialog_btn_selector_cancle.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_challenge_result_bg1.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\challenge_result_bg1.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin_under_control.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\fragment_admin_under_control.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_item.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\app_item.xml"
+    }
+]

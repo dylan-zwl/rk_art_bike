@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_mian"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/create_private_group_icon"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="@dimen/main_tx_padding_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="1dp"
+            android:text="@string/input_group_name"
+            android:textSize="@dimen/textsize18" />
+
+        <EditText
+            android:id="@+id/edit_private_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/group_edit_bg"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/groups_text_edit" />
+        
+        <CheckBox 
+            android:id="@+id/cb_is_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/is_private"/>
+
+        <Button
+            android:id="@+id/btn_crate_group"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/group_btn_selector"
+            android:text="@string/now_create"
+            android:textColor="@color/group_text_color"
+            android:textSize="@dimen/groups_button_size" />
+    </LinearLayout>
+
+</RelativeLayout>

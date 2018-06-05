@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/group_item_public_selector"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/group_item_public_view_selector" />
+
+    <TextView
+        android:id="@+id/tv_public_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/group_text_color"
+        android:textSize="@dimen/textsize22" />
+
+    <TextView
+        android:id="@+id/tv_public_gourp_name"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/tv_public_number"
+        android:gravity="left|center_vertical"
+        android:text=""
+        android:textColor="@color/group_text_color"
+        android:textSize="@dimen/textsize22" />
+
+    <TextView
+        android:id="@+id/tv_public_gourp_number"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="160dp"
+        android:layout_toLeftOf="@+id/iv_group_public_add"
+         android:gravity="left|center_vertical"
+        android:text=""
+        android:textColor="@color/group_text_color"
+        android:textSize="@dimen/textsize22" />
+
+    <ImageView
+        android:id="@+id/iv_group_public_add"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/group_iv_add_selector" />
+
+</RelativeLayout>

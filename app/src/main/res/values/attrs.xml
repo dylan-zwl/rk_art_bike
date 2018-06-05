@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Workout">
+        <attr name="titleName" format="string" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="unitName" format="string" />
+        <attr name="unitSize" format="dimension" />
+        <attr name="valueName" format="string" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="scale" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="offset_y" format="float" />
+        <attr name="offset_x" format="float" />
+    </declare-styleable>
+    
+        <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    
+
+</resources>

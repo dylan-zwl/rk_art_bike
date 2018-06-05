@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:workout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <com.tapc.platform.stardandctrl.WorkoutSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="150px"
+        android:layout_height="33px"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/workoutseekbar_style"
+        workout:textColor="@android:color/black"
+        workout:valueSize="18dp" />
+    
+
+</LinearLayout>

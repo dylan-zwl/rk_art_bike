@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:workout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.tapc.platform.stardandctrl.WorkoutValue
+         android:id="@+id/speed" 
+         android:layout_width="170px"
+         android:layout_height="18px"
+         workout:unitSize="10sp"
+         workout:textColor="@android:color/white"
+         android:background="@drawable/workout" />
+
+</LinearLayout>
