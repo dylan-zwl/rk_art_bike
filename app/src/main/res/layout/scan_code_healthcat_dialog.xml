@@ -38,13 +38,20 @@
                 android:textColor="@color/text_color2"
                 android:textSize="18sp"/>
 
+            <ImageView
+                android:id="@+id/wifi_status"
+                android:layout_width="50px"
+                android:layout_height="35px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/wifi_connect"/>
+
             <TextView
                 android:id="@+id/scan_code_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/wifi_status"
                 android:gravity="center"
                 android:text=""
                 android:textColor="@color/text_color2"
@@ -118,7 +125,6 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="广州大象运动科技有限公司\n联系客服：4008322366-4"
                 android:textColor="@color/text_color2"
                 android:textSize="15sp"/>
         </RelativeLayout>

@@ -76,7 +76,7 @@ public class SportResultActivity extends BaseActivity {
                         mTextTime.setText(getLongNumFormat(mWorkoutInfo.getTime()));
                         mTextSpeed.setText(String.format("%.1f", mWorkoutInfo.getDistance() / mWorkoutInfo.getTime()
                                 * 3600));
-                        mTextCalorie.setText(String.format("%.2f", mWorkoutInfo.getCalorie()));
+                        mTextCalorie.setText(String.format("%.0f", mWorkoutInfo.getCalorie()));
                         mSteps = mWorkoutInfo.getTotalPace();
                         if (mShowType.equals("stoprun_show")) {
                             updateScanCodeStatus(mWorkoutInfo);

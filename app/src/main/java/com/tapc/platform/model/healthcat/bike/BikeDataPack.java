@@ -22,7 +22,7 @@ public class BikeDataPack extends BaseDataPack {
     }
 
     public byte[] getHeartbeatData(byte command, BikeData bikeData) {
-        byte[] data = new byte[15];
+        byte[] data = new byte[16];
         if (bikeData != null) {
             data[0] = bikeData.getStatus();
 
@@ -44,14 +44,15 @@ public class BikeDataPack extends BaseDataPack {
             data[9] = (byte) bikeData.getDelayAckTime();
 
             byte[] distance = intToBytes(bikeData.getDistance());
-            data[10] = distance[1];
-            data[11] = distance[0];
+            data[10] = distance[2];
+            data[11] = distance[1];
+            data[12] = distance[0];
 
             byte[] time = intToBytes(bikeData.getRunTime());
-            data[12] = time[1];
-            data[13] = time[0];
+            data[13] = time[1];
+            data[14] = time[0];
 
-            data[14] = (byte) bikeData.getDiameter();
+            data[15] = (byte) bikeData.getDiameter();
         }
         return getDataStream(command, data);
     }

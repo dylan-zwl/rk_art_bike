@@ -41,11 +41,6 @@ public class BikeCtlModel extends BaseCtlModel {
     }
 
     @Override
-    public boolean login() {
-        return mManage.login();
-    }
-
-    @Override
     public boolean sendIcStart(String icId) {
         return mManage.sendIcStart(Command.Bike.D_IC_START, icId);
     }

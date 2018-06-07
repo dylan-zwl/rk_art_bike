@@ -9,7 +9,6 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -22,6 +21,7 @@ import android.widget.TextView;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
+import com.tapc.android.controller.MachineController;
 import com.tapc.android.data.Workout;
 import com.tapc.platform.Config;
 import com.tapc.platform.R;
@@ -29,10 +29,12 @@ import com.tapc.platform.TapcApp;
 import com.tapc.platform.entity.BikeCtlType;
 import com.tapc.platform.model.common.UserManageModel;
 import com.tapc.platform.model.healthcat.DeviceRunStatus;
+import com.tapc.platform.model.healthcat.bike.BikeData;
 import com.tapc.platform.stardandctrl.WorkoutCtrl;
 import com.tapc.platform.stardandctrl.WorkoutOSD;
 import com.tapc.platform.utils.SysUtils;
 import com.tapc.platform.witget.scancode.ShowTimeEvent;
+import com.tapc.platform.witget.scancode.WifiStatusEvent;
 import com.tapc.platform.workout.WorkoutListener;
 
 import org.greenrobot.eventbus.EventBus;
@@ -87,6 +89,7 @@ public class MenuBar extends LinearLayout {
     private int mFanLevel = 0;
     private int mScanCodeTimeNums = 0;
     private ShowTimeEvent mShowTimeEvent;
+    private BikeData mData;
 
     public MenuBar(Context context) {
         super(context);
@@ -95,6 +98,7 @@ public class MenuBar extends LinearLayout {
         ViewUtils.inject(this);
         this.mContext = context;
         initView();
+        mData = TapcApp.getInstance().scanCodeData;
     }
 
     public WorkoutListener mWorkoutListener = new WorkoutListener() {
@@ -117,6 +121,7 @@ public class MenuBar extends LinearLayout {
             // time
             long time = workout.getTotalTime();
             mTime.setBottomString(String.format("%02d:%02d", time / 60, time % 60));
+
             // heart
             int heart = (int) workout.getHeartRate();
             mHeart.setBottomString(String.valueOf(heart));
@@ -193,6 +198,14 @@ public class MenuBar extends LinearLayout {
             // mTarget.setProgress((int) (cur * 100));
             // }
             // }
+
+            mData.setRunTime((int) time);
+            mData.setDistance((int) (distance * 1000));
+            mData.setCalorie((float) workout.getCalorie());
+            mData.setResistance((int) workout.getIncline());
+            mData.setSpeed((float) workout.getBikeSpeed());
+            mData.setHeart((int) workout.getHeart());
+            mData.setRounds(MachineController.getInstance().getRounds());
 
             TapcApp.getInstance().mainActivity.checkPerson(workout);
             TapcApp.getInstance().playIntervalSound();
@@ -284,6 +297,7 @@ public class MenuBar extends LinearLayout {
             }
             mWifiStatus.setVisibility(View.INVISIBLE);
         }
+        EventBus.getDefault().postSticky(new WifiStatusEvent(isConncet, getConnectType()));
     }
 
     public int getConnectType() {
@@ -292,7 +306,7 @@ public class MenuBar extends LinearLayout {
         if (activeInfo != null) {
             return activeInfo.getType();
         }
-        return ConnectivityManager.TYPE_NONE;
+        return ConnectivityManager.TYPE_WIFI;
     }
 
     public void setBlueConnect(boolean isConncet) {
@@ -348,29 +362,37 @@ public class MenuBar extends LinearLayout {
     }
 
     private void noAction() {
-        if (!TapcApp.getInstance().isStart() && !TapcApp.getInstance().getSportsEngin().isRunning()
-                && TapcApp.getInstance().isScreenOn) {
-            TapcApp.getInstance().noNoActionCount++;
-        } else {
-            TapcApp.getInstance().noNoActionCount = 0;
-            return;
-        }
-//		Log.d("noNoActionCount", "" + TapcApp.getInstance().noNoActionCount);
-        if (UserManageModel.getInstance().isLogined() && TapcApp.getInstance().noNoActionCount >= 33) {
-            TapcApp.getInstance().noNoActionCount = 0;
-//            SportResultActivity.uploadSportData(new WorkoutInfo());
-//            TapcApp.getInstance().mainActivity.setRfidLogin(false);
-//            TapcApp.getInstance().menuBar.backHome();
-
-            TapcApp.getInstance().setDeviceRunStatus(DeviceRunStatus.TIMEOUT);
-            Log.d("menubar", "go back rfid interface");
-        }
-
         if (TapcApp.getInstance().hasErp) {
-            if (TapcApp.getInstance().noNoActionCount >= Config.NOACTION_DELAYTIME) {
+            if (!TapcApp.getInstance().isStart() && !TapcApp.getInstance().getSportsEngin().isPause()) {
+                if (TapcApp.getInstance().isAppToBackground) {
+                    if (TapcApp.isApplicationBroughtToBackground(mContext)) {
+                        return;
+                    }
+                }
+                if (!TapcApp.getInstance().isScreenOn) {
+                    return;
+                }
+                TapcApp.getInstance().noNoActionCount++;
+                // Log.d("noNoActionCount", "" +
+                // TapcApp.getInstance().noNoActionCount);
+                if (TapcApp.getInstance().noNoActionCount >= Config.NOACTION_DELAYTIME) {
+                    TapcApp.getInstance().noNoActionCount = 0;
+                    TapcApp.getInstance().enterERP();
+                }
+            }
+        }
+
+        if (UserManageModel.getInstance().isLogined() && !TapcApp.getInstance().isStart()) {
+            if (TapcApp.getInstance().hasErp == false) {
+                TapcApp.getInstance().noNoActionCount++;
+            }
+            if (TapcApp.getInstance().noNoActionCount >= (3 * 60)) {
                 TapcApp.getInstance().noNoActionCount = 0;
-                TapcApp.getInstance().enterERP();
-                Log.d("menubar", "enter erp");
+
+                TapcApp.getInstance().setDeviceRunStatus(DeviceRunStatus.TIMEOUT);
+                TapcApp.getInstance().menuBar.backHome();
+                TapcApp.getInstance().mainActivity.backLogin();
+//                TapcApp.getInstance().mainActivity.setUser(null);
             }
         }
     }

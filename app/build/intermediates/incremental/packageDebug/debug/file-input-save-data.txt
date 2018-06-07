@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jun 01 16:22:34 CST 2018
+#Wed Jun 06 16:02:51 CST 2018
 2.base=E\:\\project\\rk_art_bike\\app\\build\\intermediates\\assets\\debug
 0.path=classes.dex
 2.baseType=DIRECTORY

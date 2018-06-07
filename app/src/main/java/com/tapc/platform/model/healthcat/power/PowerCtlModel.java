@@ -40,11 +40,6 @@ public class PowerCtlModel extends BaseCtlModel {
     }
 
     @Override
-    public boolean login() {
-        return mManage.login();
-    }
-
-    @Override
     public boolean sendIcStart(String icId) {
         return mManage.sendIcStart(Command.Power.D_IC_START, icId);
     }

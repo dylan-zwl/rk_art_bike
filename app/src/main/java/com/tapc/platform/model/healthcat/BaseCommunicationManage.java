@@ -1,5 +1,7 @@
 package com.tapc.platform.model.healthcat;
 
+import android.text.TextUtils;
+
 import com.tapc.platform.model.tcp.TcpClient;
 
 /**
@@ -47,8 +49,12 @@ public abstract class BaseCommunicationManage {
     }
 
 
-    public boolean login() {
-        byte[] data = mBaseDataPack.login(mDeviceId + "000000000000");
+    public boolean login(String mac) {
+        if (TextUtils.isEmpty(mac)) {
+//            mac = "000000000000";
+            return false;
+        }
+        byte[] data = mBaseDataPack.login(mDeviceId + mac);
         return sendData(data);
     }
 

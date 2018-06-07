@@ -390,7 +390,7 @@ public class MainActivity extends BaseActivity {
 
             // calorie
             double calorie = workout.getTotalCalorie();
-            mWorkoutTextCalorie.setValue(String.format("%.2f", calorie));
+            mWorkoutTextCalorie.setValue(String.format("%.0f", calorie));
 
             // heartRate
             if (TapcApp.getInstance().isTestOpen) {
@@ -849,9 +849,7 @@ public class MainActivity extends BaseActivity {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     dialog.dismiss();
-                                    TapcApp.getInstance().setDeviceRunStatus(DeviceRunStatus.STOPED);
-                                    UserManageModel.getInstance().logout();
-                                    mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_QR_DIALOG, 0);
+                                    backLogin();
                                 }
                             }).setNegativeButton("NO", new DialogInterface.OnClickListener() {
                         @Override
@@ -932,12 +930,18 @@ public class MainActivity extends BaseActivity {
             public void run() {
                 if (visibility) {
                     mWifiBtn.setVisibility(View.VISIBLE);
-                    mDateTimeBtn.setVisibility(View.VISIBLE);
+//                    mDateTimeBtn.setVisibility(View.VISIBLE);
                 } else {
                     mWifiBtn.setVisibility(View.GONE);
-                    mDateTimeBtn.setVisibility(View.GONE);
+//                    mDateTimeBtn.setVisibility(View.GONE);
                 }
             }
         });
+    }
+
+    public void backLogin() {
+        UserManageModel.getInstance().logout();
+        TapcApp.getInstance().setDeviceRunStatus(DeviceRunStatus.STOPED);
+        mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_QR_DIALOG, 0);
     }
 }

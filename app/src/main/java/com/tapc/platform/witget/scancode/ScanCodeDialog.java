@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.net.ConnectivityManager;
 import android.os.Handler;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -47,6 +48,9 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.View {
     @ViewInject(R.id.qr_codes)
     ImageView mQrCode;
@@ -75,6 +79,8 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
     TextView mScanCodeTime;
     @ViewInject(R.id.show_text2)
     TextView mShowPhoneNumber;
+    @ViewInject(R.id.wifi_status)
+    ImageView mWifiStatus;
 
     private Handler mHandler;
     private ScanCodeContract.Presenter mPresenter;
@@ -116,6 +122,10 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
     private void init() {
         mData = TapcApp.getInstance().scanCodeData;
 
+        if (Config.isConnected) {
+            TapcApp.getInstance().initDeviceId(mContext);
+        }
+
         mPresenter = new ScanCodePresenter(mContext, this, mDeviceType);
         if (Config.HAS_SCAN_QR) {
             hideConnectNet();
@@ -139,7 +149,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
                     defDeviceId = "STAT0001";
                     break;
             }
-            ConfigModel.setDeviceId(mContext, defDeviceId);
+//            ConfigModel.setHealthCatDeviceId(mContext, defDeviceId);
             deviceId = defDeviceId;
         }
 
@@ -199,6 +209,24 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
     @Subscribe(threadMode = ThreadMode.MAIN, priority = 100, sticky = true)
     public void onUpdateTime(ShowTimeEvent showTimeEvent) {
         mScanCodeTime.setText(showTimeEvent.getTime());
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN, priority = 100, sticky = true)
+    public void onUpdateTime(WifiStatusEvent wifiStatusEvent) {
+        if (wifiStatusEvent.isConnect()) {
+            if (wifiStatusEvent.getType() == ConnectivityManager.TYPE_ETHERNET) {
+                mWifiStatus.setImageResource(R.drawable.ethernet_connect);
+            } else {
+                mWifiStatus.setImageResource(R.drawable.wifi_connect);
+            }
+        } else {
+            if (wifiStatusEvent.getType() == ConnectivityManager.TYPE_ETHERNET) {
+                mWifiStatus.setImageResource(R.drawable.ethernet_unconnect);
+            } else {
+                mWifiStatus.setImageResource(R.drawable.wifi_unconnect);
+            }
+        }
+        mWifiStatus.setVisibility(View.VISIBLE);
     }
 
     private void initShowDialog() {
@@ -321,6 +349,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
                 synchronized (this) {
                     String showQrcodeStr = qrcodeStr;
                     if (!TextUtils.isEmpty(mUrl)) {
+//                        showQrcodeStr = mUrl + "?id=" + qrcodeStr + "&mac=" + Config.DEVICE_ID;
                         showQrcodeStr = mUrl + "?id=" + qrcodeStr;
                     }
                     final Bitmap bitmap = SysUtils.createImage(showQrcodeStr, 100, 100, 5);
@@ -363,7 +392,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
     };
 
     private void login() {
-        mPresenter.login();
+        mPresenter.login(Config.DEVICE_ID);
         mHandler.postDelayed(mLoginRunnable, 2000);
     }
 
@@ -567,6 +596,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
      * @param :
      */
     private RfidModel mRfidModel;
+    private Timer mTimer;
     private int mRfidConnectCount = 0;
 
     /**
@@ -623,6 +653,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
         mRfidModel = new RfidModel();
         boolean isConnected = mRfidModel.connectUsb(TapcApp.getInstance().mainActivity);
         if (isConnected) {
+            //startDetect();
             mRfidModel.connectRfid(new RfidModel.DetectListener() {
 
                 @Override
@@ -656,6 +687,24 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
                 }
             }, 1000);
         }
+    }
+
+    private void stopTimer() {
+        if (mTimer != null) {
+            mTimer.cancel();
+            mTimer = null;
+        }
+    }
+
+    private void startDetect() {
+        stopTimer();
+        mTimer = new Timer();
+        mTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                mRfidModel.activationCard();
+            }
+        }, 1000, 1000);
     }
 
     @OnClick(R.id.rfid_reconnect)

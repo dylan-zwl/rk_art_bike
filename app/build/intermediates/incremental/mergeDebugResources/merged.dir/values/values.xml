@@ -1593,7 +1593,7 @@
     <string name="change_play_list">切换至播放列表</string>
     <string name="clear_app_data">清除缓存</string>
     <string name="confirm">确认</string>
-    <string name="connect_server_failure">连接服务器超时,请稍后再试</string>
+    <string name="connect_server_failure">连接服务器超时,\n是否检查网络？</string>
     <string name="controller_Firmware">控制器固件:</string>
     <string name="creat_fail">创建失败</string>
     <string name="creat_success">创建成功</string>
@@ -1714,7 +1714,7 @@
     <string name="load_pwn_title">Pwm: %d </string>
     <string name="loading">加载中...</string>
     <string name="login">登录</string>
-    <string name="login_fail">登录失败,请重新登录！</string>
+    <string name="login_fail">登录失败,请检查网络！</string>
     <string name="login_user_name">用户名</string>
     <string name="login_user_password">密码</string>
     <string name="machine_settings">机器参数</string>
@@ -1869,19 +1869,10 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-
-
-
-
-
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="ListViewFastScrollThumb" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <item name="android:fastScrollThumbDrawable">@drawable/group_listview_bscroll</item>

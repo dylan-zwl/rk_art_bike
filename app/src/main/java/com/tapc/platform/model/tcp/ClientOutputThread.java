@@ -7,13 +7,11 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 public class ClientOutputThread extends Thread {
-    private Socket mSocket;
     private OutputStream mOutputStream;
     private boolean isStart = true;
     private byte[] mDataBuffer;
 
     public ClientOutputThread(Socket socket) {
-        this.mSocket = socket;
         try {
             mOutputStream = socket.getOutputStream();
         } catch (IOException e) {

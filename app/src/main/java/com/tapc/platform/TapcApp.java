@@ -20,6 +20,7 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.SoundEffectConstants;
 
@@ -42,6 +43,7 @@ import com.tapc.platform.entity.ChallengeTpye;
 import com.tapc.platform.entity.DeviceData;
 import com.tapc.platform.entity.UserInfor;
 import com.tapc.platform.media.VaRecordPosition;
+import com.tapc.platform.model.common.ConfigModel;
 import com.tapc.platform.model.healthcat.bike.BikeData;
 import com.tapc.platform.service.MachineStatusService;
 import com.tapc.platform.service.MenuService;
@@ -52,6 +54,7 @@ import com.tapc.platform.sql.SportRecordItem;
 import com.tapc.platform.sql.SportsDataDao;
 import com.tapc.platform.sql.UserDataDao;
 import com.tapc.platform.utils.AppUtils;
+import com.tapc.platform.utils.NetUtils;
 import com.tapc.platform.utils.PreferenceHelper;
 import com.tapc.platform.utils.SysUtils;
 import com.tapc.platform.witget.MenuBar;
@@ -678,5 +681,16 @@ public class TapcApp extends Application {
     public void setDeviceRunStatus(byte status) {
         scanCodeData.setStatus(status);
         EventBus.getDefault().post(scanCodeData);
+    }
+
+    public void initDeviceId(Context context) {
+        String id = ConfigModel.getDeviceId(context, null);
+        if (TextUtils.isEmpty(id)) {
+            id = NetUtils.getDeviceId(context);
+            if (!TextUtils.isEmpty(id)) {
+                ConfigModel.setDeviceId(context, id);
+            }
+        }
+        Config.DEVICE_ID = id;
     }
 }

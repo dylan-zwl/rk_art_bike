@@ -48,6 +48,13 @@ public class Utility {
 		return result;
 	}
 
+	public static int getIntegerFromHLByte(byte H, byte L) {
+		int result = 0;
+		result = (H&0xFF);
+		result = (result<<8)+(L&0xFF);
+		return result;
+	}
+	
 	public static int getCheckSum(byte[] buffer, int length) {
 		int crc = 0xFFFF;
 

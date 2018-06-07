@@ -29,7 +29,7 @@ public interface ScanCodeContract {
 
         void sendHeartbeat();
 
-        boolean login();
+        boolean login(String mac);
 
         void setDeviceId(@Nullable String deviceId);
 

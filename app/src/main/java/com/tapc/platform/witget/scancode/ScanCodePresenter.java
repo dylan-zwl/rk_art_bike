@@ -14,7 +14,6 @@ import com.tapc.platform.model.healthcat.power.PowerData;
 public class ScanCodePresenter implements ScanCodeContract.Presenter {
     private ScanCodeContract.View mView;
     private BaseCtlModel mModel;
-    private DeviceType mDeviceType;
 
     public ScanCodePresenter(Context context, @NonNull final ScanCodeContract.View view, DeviceType deviceType) {
         mView = view;
@@ -46,8 +45,8 @@ public class ScanCodePresenter implements ScanCodeContract.Presenter {
     }
 
     @Override
-    public boolean login() {
-        return mModel.login();
+    public boolean login(String mac) {
+        return mModel.login(mac);
     }
 
     @Override

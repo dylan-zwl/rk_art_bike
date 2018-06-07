@@ -79,8 +79,8 @@ public abstract class BaseCtlModel {
         mBaseListener.connectServerResult(isSuccess);
     }
 
-    public boolean login() {
-        return false;
+    public boolean login(String mac) {
+        return mManage.login(mac);
     }
 
     private boolean connect() {

@@ -456,7 +456,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/main_line1_left_margin"
             android:layout_marginTop="@dimen/main_line1_top_margin"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <Button
                 android:id="@+id/newsButton"
@@ -513,7 +514,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/main_line1_left_margin"
             android:layout_marginTop="@dimen/main_line1_top_margin"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -574,11 +576,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_line1_left_margin"
             android:layout_marginTop="@dimen/main_line1_top_margin"
-            android:orientation="vertical">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/app"
@@ -591,12 +594,11 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/goal_title_size"/>
 
-
             <Button
                 android:id="@+id/bluetoothButton"
                 android:layout_width="@dimen/main_icon1_with"
                 android:layout_height="@dimen/main_icon1_height"
-                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:layout_marginLeft="@dimen/main_line1_left_margin"
                 android:background="@drawable/blue"
                 android:gravity="top|center_horizontal"
                 android:paddingTop="@dimen/main_tx_padding_top"
@@ -608,13 +610,27 @@
                 android:id="@+id/datetimeButton"
                 android:layout_width="@dimen/main_icon1_with"
                 android:layout_height="@dimen/main_icon1_height"
-                android:layout_marginTop="@dimen/main_item_top_margin"
+                android:layout_marginLeft="@dimen/main_line1_left_margin"
                 android:background="@drawable/time_set"
                 android:gravity="top|center_horizontal"
                 android:paddingTop="@dimen/main_tx_padding_top"
                 android:text="@string/datetime"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/goal_title_size"/>
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/wifiButton"
+                android:layout_width="@dimen/main_icon1_with"
+                android:layout_height="@dimen/main_icon1_height"
+                android:layout_marginLeft="@dimen/main_line1_left_margin"
+                android:background="@drawable/wifi"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="@dimen/main_tx_padding_top"
+                android:text="@string/wifi"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/goal_title_size"
+                android:visibility="gone"/>
         </LinearLayout>
 
         <LinearLayout
@@ -625,18 +641,6 @@
             android:background="@drawable/logo_gz"
             android:orientation="vertical"
             android:visibility="invisible">
-
-            <Button
-                android:id="@+id/wifiButton"
-                android:layout_width="@dimen/main_icon1_with"
-                android:layout_height="@dimen/main_icon1_height"
-                android:background="@drawable/wifi"
-                android:gravity="top|center_horizontal"
-                android:paddingTop="@dimen/main_tx_padding_top"
-                android:text="@string/wifi"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/goal_title_size"
-                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/challenges"

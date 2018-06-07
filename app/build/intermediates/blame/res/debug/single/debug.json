@@ -12,12 +12,12 @@
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\b_97.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_pulic_group.xml.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_pulic_group.xml"
-    },
-    {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group_detail_tab_selector.xml.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\group_detail_tab_selector.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_pulic_group.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\item_pulic_group.xml"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_video_up.png.flat",
@@ -28,12 +28,12 @@
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\logo_gz.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_scan_code_healthcat_dialog.xml.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\scan_code_healthcat_dialog.xml"
-    },
-    {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_rank_item_bg.png.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\rank_item_bg.png"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_scan_code_healthcat_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\scan_code_healthcat_dialog.xml"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_38.jpg.flat",
@@ -148,32 +148,32 @@
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\login_down.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_machine_status_dialog.xml.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\machine_status_dialog.xml"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_down.png"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program8_down.png.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program8_down.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_rank_down.png.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\group_rank_down.png"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_machine_status_dialog.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\machine_status_dialog.xml"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_workout_ctrl.xml.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\workout_ctrl.xml"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_device_type2.png.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\device_type2.png"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_notify.ogg.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\notify.ogg"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tv.xml.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\layout\\activity_tv.xml"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\raw_notify.ogg.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\raw\\notify.ogg"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_device_type2.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\device_type2.png"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_blog_up.png.flat",
@@ -184,24 +184,24 @@
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\osd_fill.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pause.xml.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\pause.xml"
-    },
-    {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_scan_login_bg.png.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\scan_login_bg.png"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rb_tab_bg_check_no.png.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\rb_tab_bg_check_no.png"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pause.xml.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable\\pause.xml"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program9_down.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program9_down.png"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\714135a4b68e61f21a17e61af53f820a\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_program9_down.png.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-nodpi\\program9_down.png"
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rb_tab_bg_check_no.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\rb_tab_bg_check_no.png"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program2.xml.flat",
@@ -252,12 +252,12 @@
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_11.jpg"
     },
     {
-        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_group_icon.png.flat",
-        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\add_group_icon.png"
-    },
-    {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_ic_52.jpg.flat",
         "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\user_ic_52.jpg"
+    },
+    {
+        "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_group_icon.png.flat",
+        "source": "E:\\project\\rk_art_bike\\app\\src\\main\\res\\drawable-xhdpi\\add_group_icon.png"
     },
     {
         "merged": "E:\\project\\rk_art_bike\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_return_d.png.flat",
