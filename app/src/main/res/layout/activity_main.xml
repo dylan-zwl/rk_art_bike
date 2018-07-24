@@ -115,6 +115,19 @@
                             android:paddingTop="@dimen/main_tx_padding_top"
                             android:text="@string/language"
                             android:textColor="@android:color/white"
+                            android:textSize="@dimen/goal_title_size"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/exerciseButton"
+                            android:layout_width="@dimen/main_icon1_with"
+                            android:layout_height="@dimen/main_icon1_height"
+                            android:layout_marginTop="@dimen/main_item_top_margin"
+                            android:background="@drawable/exercise"
+                            android:gravity="top|center_horizontal"
+                            android:paddingTop="@dimen/main_tx_padding_top"
+                            android:text="@string/exercise"
+                            android:textColor="@android:color/white"
                             android:textSize="@dimen/goal_title_size"/>
                     </LinearLayout>
 
@@ -217,6 +230,7 @@
                             workout:valueSize="@dimen/workout_value_size"/>
 
                         <RelativeLayout
+                            android:id="@+id/incline_workoutctl_rl"
                             android:layout_width="@dimen/main_icon1_with"
                             android:layout_height="@dimen/main_icon1_height"
                             android:layout_marginTop="@dimen/main_item_top_margin"
@@ -253,9 +267,9 @@
                             android:background="@drawable/distence"
                             workout:scale="4dp"
                             workout:textColor="@android:color/white"
-                            workout:titleName="@string/goaldistance"
+                            workout:titleName="@string/laps"
                             workout:titleSize="@dimen/workout_title_size"
-                            workout:unitName="km"
+                            workout:unitName=""
                             workout:unitSize="@dimen/workout_unit_size"
                             workout:valueSize="@dimen/workout_value_size"/>
 
@@ -336,6 +350,7 @@
                             workout:valueSize="@dimen/workout_value_size"/>
 
                         <RelativeLayout
+                            android:id="@+id/speed_workoutctl_rl"
                             android:layout_width="@dimen/main_icon1_with"
                             android:layout_height="@dimen/main_icon1_height"
                             android:layout_marginTop="@dimen/main_item_top_margin"
@@ -377,7 +392,23 @@
                     android:paddingTop="@dimen/main_tx_padding_top"
                     android:text="@string/report"
                     android:textColor="@android:color/white"
-                    android:textSize="@dimen/goal_title_size"/>
+                    android:textSize="@dimen/goal_title_size"
+                    android:visibility="invisible"/>
+
+                <com.tapc.platform.stardandctrl.WorkoutText
+                    android:id="@+id/laps"
+                    android:layout_width="@dimen/main_icon1_with"
+                    android:layout_height="@dimen/main_icon1_height"
+                    android:layout_marginTop="@dimen/main_item_top_margin"
+                    android:background="@drawable/heart_rate"
+                    android:visibility="gone"
+                    workout:scale="4dp"
+                    workout:textColor="@android:color/white"
+                    workout:titleName="@string/laps"
+                    workout:titleSize="@dimen/workout_title_size"
+                    workout:unitName=""
+                    workout:unitSize="@dimen/workout_unit_size"
+                    workout:valueSize="@dimen/workout_value_size"/>
 
                 <Button
                     android:id="@+id/vaButton"
@@ -390,19 +421,9 @@
                     android:paddingTop="@dimen/main_tx_padding_top"
                     android:text="@string/virtual"
                     android:textColor="@android:color/white"
-                    android:textSize="@dimen/goal_title_size"/>
+                    android:textSize="@dimen/goal_title_size"
+                    android:visibility="invisible"/>
 
-                <Button
-                    android:id="@+id/exerciseButton"
-                    android:layout_width="@dimen/main_icon1_with"
-                    android:layout_height="@dimen/main_icon1_height"
-                    android:layout_marginTop="@dimen/main_item_top_margin"
-                    android:background="@drawable/exercise"
-                    android:gravity="top|center_horizontal"
-                    android:paddingTop="@dimen/main_tx_padding_top"
-                    android:text="@string/exercise"
-                    android:textColor="@android:color/white"
-                    android:textSize="@dimen/goal_title_size"/>
             </LinearLayout>
 
             <LinearLayout

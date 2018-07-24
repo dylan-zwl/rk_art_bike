@@ -15,13 +15,14 @@
     <string name="report">报告</string>
     <string name="virtual">虚拟场景</string>
     <string name="exercise">运动程序</string>
-    <string name="heart">心跳</string>
+    <string name="heart">心率</string>
+    <string name="laps">圈数</string>
     <string name="altitude">速度</string>
     <string name="start">开始</string>
-    <string name="stop">停止</string>
+    <string name="stop">结束</string>
     <string name="pause">暂停</string>
     <string name="speed">瓦特</string>
-    <string name="incline">阻尼</string>
+    <string name="incline">阻力</string>
     <string name="goal">目标</string>
     <string name="news">新闻</string>
     <string name="video">视频</string>

@@ -119,6 +119,7 @@ public class AppUtils {
 				AppInfoEntity appInfo = new AppInfoEntity();
 				if (!pakageName.equals("com.tapc.platform")
 						&& !pakageName.equals("com.tapc.test")
+						&& !pakageName.equals("com.sohu.inputmethod.sogou")
 						&& (applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) <= 0) {
 					appInfo.setAppLabel(appLabel);
 					appInfo.setPkgName(pakageName);

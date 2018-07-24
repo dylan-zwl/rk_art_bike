@@ -37,6 +37,7 @@ import com.tapc.android.controller.MachineController;
 import com.tapc.android.data.Enum.WorkoutStage;
 import com.tapc.android.data.MessageDefine;
 import com.tapc.android.data.Workout;
+import com.tapc.android.uart.Commands;
 import com.tapc.platform.Config;
 import com.tapc.platform.R;
 import com.tapc.platform.TapcApp;
@@ -103,6 +104,8 @@ public class MainActivity extends BaseActivity {
     private WorkoutText mWorkoutTextHeart;
     @ViewInject(R.id.altitude)
     private WorkoutText mWorkoutTextPace;
+    @ViewInject(R.id.laps)
+    private WorkoutText mLaps;
     @ViewInject(R.id.pauseButton)
     private Button mPause;
     @ViewInject(R.id.restartButton)
@@ -158,12 +161,14 @@ public class MainActivity extends BaseActivity {
                 TapcApp.getInstance().menuBar.showOSD(false);
             }
         }
-        if (!UserManageModel.getInstance().isLogined()) {
-            int device = PreferenceHelper.readInt(mActivity, Config.SETTING_CONFIG, "device", 0);
-            if (device == 0) {
-                mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_DEVICE_DIALOG, 500);
+        if (!TapcApp.getInstance().isTestOpen) {
+            if (!UserManageModel.getInstance().isLogined()) {
+                int device = PreferenceHelper.readInt(mActivity, Config.SETTING_CONFIG, "device", 0);
+                if (device == 0) {
+                    mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_DEVICE_DIALOG, 500);
+                }
+                mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_QR_DIALOG, 500);
             }
-            mUIHandler.sendEmptyMessageDelayed(MessageType.MSG_UI_SHOW_QR_DIALOG, 500);
         }
     }
 
@@ -200,7 +205,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void startCountdown() {
-        if (Config.HAS_SCAN_QR || Config.HAS_RFID) {
+        if (!TapcApp.getInstance().isTestOpen && (Config.HAS_SCAN_QR || Config.HAS_RFID)) {
             if (!UserManageModel.getInstance().isLogined()) {
                 setQrCodeDialogShow(mActivity, true);
                 TapcApp.getInstance().setStart(false);
@@ -232,7 +237,7 @@ public class MainActivity extends BaseActivity {
         if (TapcApp.getInstance().isTestOpen) {
             SysUtils.getLoadMap(MainActivity.this);
         }
-
+        TapcApp.getInstance().controller.LoginQuitMachine(1);
         TapcApp.getInstance().setDeviceRunStatus(DeviceRunStatus.RUNNING);
 
         TapcApp.getInstance().setStart(true);
@@ -240,6 +245,7 @@ public class MainActivity extends BaseActivity {
         mLayout_start.setVisibility(View.VISIBLE);
         mPause.setVisibility(View.VISIBLE);
         mRestart.setVisibility(View.INVISIBLE);
+//        mLaps.setVisibility(View.VISIBLE);
         if (TapcApp.getInstance().isNextPage()) {
             TapcApp.getInstance().menuBar.showOSD(true);
         } else {
@@ -292,6 +298,7 @@ public class MainActivity extends BaseActivity {
         mLayout_start.setVisibility(View.INVISIBLE);
         mLayout_stop.setVisibility(View.VISIBLE);
         TapcApp.getInstance().menuBar.showOSD(false);
+        mLaps.setVisibility(View.GONE);
         mInclineCtrl.stop();
         mSpeedCtrl.stop();
         TapcApp.getInstance().getSportsEngin().stop();
@@ -386,7 +393,10 @@ public class MainActivity extends BaseActivity {
 
             // distance
             double distance = workout.getTotalDistance();
-            mWorkoutTextDistance.setValue(String.format("%.2f", distance));
+//            mWorkoutTextDistance.setValue(String.format("%.2f", distance));
+
+            //            mLaps.setValue("" + MachineController.getInstance().getRounds());
+            mWorkoutTextDistance.setValue("" + MachineController.getInstance().getRounds());
 
             // calorie
             double calorie = workout.getTotalCalorie();
@@ -473,21 +483,22 @@ public class MainActivity extends BaseActivity {
             mData.setCalorie((float) calorie);
             mData.setResistance((int) workout.getIncline());
             mData.setSpeed((float) getBikeSpeed());
-            mData.setHeart((int) workout.getHeart());
+            mData.setHeart((int) workout.getHeartRate());
             mData.setRounds(MachineController.getInstance().getRounds());
         }
     };
 
     public int getBikeSpeedType() {
-        showSpeedTime++;
-        if (showSpeedTime >= 20) {
-            showSpeedTime = 0;
-            if (bikeSpeedType == 0) {
-                bikeSpeedType = 1;
-            } else {
-                bikeSpeedType = 0;
-            }
-        }
+//        showSpeedTime++;
+//        if (showSpeedTime >= 20) {
+//            showSpeedTime = 0;
+//            if (bikeSpeedType == 0) {
+//                bikeSpeedType = 1;
+//            } else {
+//                bikeSpeedType = 0;
+//            }
+//        }
+        bikeSpeedType = 0;
         return bikeSpeedType;
     }
 
@@ -498,6 +509,23 @@ public class MainActivity extends BaseActivity {
             groupUserDTO.setDistance((int) (distance * GroupUserDTO.VALUE));
             groupUserDTO.setCalories((int) (calorie * GroupUserDTO.VALUE));
             groupUserDTO.setSpeed((int) (speed * GroupUserDTO.VALUE));
+        }
+    }
+
+    @OnClick({R.id.speed_workoutctl_rl, R.id.incline_workoutctl_rl})
+    protected void valueClick(View v) {
+        if (v.getId() == R.id.speed_workoutctl_rl) {
+            if (Config.sBikeCtlType == BikeCtlType.WATT) {
+                WorkoutCtlSetActivity.launch(this, WorkoutCtlSetActivity.SPEED, mSpeedCtrl.getCtlValue());
+            }
+        } else if (v.getId() == R.id.incline_workoutctl_rl) {
+            if (Config.sBikeCtlType == BikeCtlType.LOAD) {
+                if (TapcApp.getInstance().isTestOpen) {
+                    LoadCtlSetAcitvity.launch(this, WorkoutCtlSetActivity.INCLINE, mInclineCtrl.getCtlValue());
+                } else {
+                    WorkoutCtlSetActivity.launch(this, WorkoutCtlSetActivity.INCLINE, mInclineCtrl.getCtlValue());
+                }
+            }
         }
     }
 
@@ -599,7 +627,11 @@ public class MainActivity extends BaseActivity {
 
     @OnClick(R.id.helpButton)
     public void onHelp(View v) {
-        startTapcActivity(this, WattConstanAcitvity.class);
+        if (TapcApp.getInstance().getSportsEngin().isRunning()) {
+            Toast.makeText(this, R.string.cannot_operate, Toast.LENGTH_SHORT).show();
+        } else {
+            startTapcActivity(this, WattConstanAcitvity.class);
+        }
     }
 
     @OnClick(R.id.challenges)
@@ -880,7 +912,7 @@ public class MainActivity extends BaseActivity {
 
             if (++mClickCount >= SETTING_COUNT) {
                 mClickCount = 0;
-                if (!TapcApp.getInstance().isStart && !Config.HAS_SCAN_QR) {
+                if (!TapcApp.getInstance().isStart && !Config.HAS_SCAN_QR || TapcApp.getInstance().isTestOpen) {
                     startTapcActivity(this, SettingActivity.class);
                 }
             }
@@ -913,13 +945,20 @@ public class MainActivity extends BaseActivity {
             if (getBikeSpeed() <= 0) {
                 if (rpmSpeed <= 0) {
                     if (!TapcApp.getInstance().getSportsEngin().isPause()) {
-                        pauseRun();
+//                        pauseRun();
                     }
                 } else {
                     if (TapcApp.getInstance().getSportsEngin().isPause()) {
                         restartRun();
                     }
                 }
+            }
+        } else if (!UserManageModel.getInstance().isLogined() && !TapcApp.getInstance().isStart && !TapcApp
+                .getInstance().isTestOpen) {
+            int rpmSpeed = TapcApp.getInstance().controller.getRpmSpeed();
+            if (rpmSpeed > 0) {
+                TapcApp.getInstance().controller.sendCommands(Commands.SET_BUZZER_CNTRL, null);
+                SysUtils.playBeep(this, R.raw.rfid);
             }
         }
     }

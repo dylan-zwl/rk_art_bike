@@ -19,6 +19,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -34,6 +35,7 @@ import com.tapc.platform.sportsrunctrl.SportsEngin;
 import com.tapc.platform.utils.SysUtils;
 import com.tapc.platform.witget.CountdownDialog;
 import com.tapc.platform.witget.DeviceSelDialog;
+import com.tapc.platform.witget.FullScreenDialog;
 import com.tapc.platform.witget.MachineStatusDialog;
 import com.tapc.platform.witget.MsgPromptDialog;
 import com.tapc.platform.witget.scancode.DeviceType;
@@ -60,6 +62,7 @@ public class MachineStatusService extends Service {
     private CountdownDialog mCountdownDialog;
     private ScanCodeDialog mScanCodeDialog;
     private DeviceSelDialog mDeviceSelDialog;
+    private FullScreenDialog mFullScreenDialog;
 
     private Handler mKeyHandler = new Handler();
 
@@ -86,11 +89,26 @@ public class MachineStatusService extends Service {
                         | WindowManager.LayoutParams.FLAG_TOUCHABLE_WHEN_WAKING
                         | WindowManager.LayoutParams.FLAG_SPLIT_TOUCH, PixelFormat.TRANSPARENT);
 
+        LayoutParams fullScreenLayoutParams = new WindowManager.LayoutParams(
+                WindowManager.LayoutParams.WRAP_CONTENT, WindowManager.LayoutParams.WRAP_CONTENT,
+                WindowManager.LayoutParams.TYPE_SYSTEM_ALERT,
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE
+                        | WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN
+                        | WindowManager.LayoutParams.FLAG_TOUCHABLE_WHEN_WAKING
+                        | WindowManager.LayoutParams.FLAG_SPLIT_TOUCH,
+                PixelFormat.TRANSPARENT);
+        fullScreenLayoutParams.gravity = Gravity.TOP;
+        fullScreenLayoutParams.x = 960;
+        fullScreenLayoutParams.y = 440;
+
         mWindowManager = (WindowManager) getSystemService("window");
 
         mKeyBoardDialog = new MsgPromptDialog(this);
         mKeyBoardDialog.setVisibility(View.GONE);
         mWindowManager.addView(mKeyBoardDialog, mKeyBoardParams);
+
+        mFullScreenDialog = new FullScreenDialog(this);
+        mWindowManager.addView(mFullScreenDialog, fullScreenLayoutParams);
 
         mCountdownDialog = new CountdownDialog(this);
         mCountdownDialog.setVisibility(View.GONE);
@@ -132,6 +150,7 @@ public class MachineStatusService extends Service {
         mWindowManager.removeView(mKeyBoardDialog);
         mWindowManager.removeView(mScanCodeDialog);
         mWindowManager.removeView(mDeviceSelDialog);
+        mWindowManager.removeView(mFullScreenDialog);
     }
 
     @Override

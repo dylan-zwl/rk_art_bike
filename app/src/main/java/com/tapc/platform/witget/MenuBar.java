@@ -108,7 +108,7 @@ public class MenuBar extends LinearLayout {
             if (TapcApp.getInstance().isSimulation) {
                 mIncline.setBottomString(String.format("%.0f", TapcApp.getInstance().mainActivity.getInclineCtrl()
                         .getSimulationValue()));
-                mSpeed.setBottomString(String.format("%.0f", TapcApp.getInstance().mainActivity.getSpeedCtrl()
+                mSpeed.setBottomString(String.format("%.1f", TapcApp.getInstance().mainActivity.getSpeedCtrl()
                         .getSimulationValue()));
             } else {
                 // incline
@@ -116,7 +116,7 @@ public class MenuBar extends LinearLayout {
                 mIncline.setBottomString(String.format("%.0f", incline));
                 // speed
                 double speed = workout.getSpeed();
-                mSpeed.setBottomString(String.format("%.0f", speed));
+                mSpeed.setBottomString(String.format("%.1f", speed));
             }
             // time
             long time = workout.getTotalTime();
@@ -128,7 +128,9 @@ public class MenuBar extends LinearLayout {
 
             // distance
             double distance = workout.getTotalDistance();
-            mDistance.setBottomString(String.format("%.2f", distance));
+//            mDistance.setBottomString(String.format("%.2f", distance));
+            mDistance.setBottomString("" + MachineController.getInstance().getRounds());
+
 
             WorkoutCtrl speedCtrl = TapcApp.getInstance().mainActivity.getSpeedCtrl();
             WorkoutCtrl inclineCtrl = TapcApp.getInstance().mainActivity.getInclineCtrl();
@@ -204,7 +206,7 @@ public class MenuBar extends LinearLayout {
             mData.setCalorie((float) workout.getCalorie());
             mData.setResistance((int) workout.getIncline());
             mData.setSpeed((float) workout.getBikeSpeed());
-            mData.setHeart((int) workout.getHeart());
+            mData.setHeart((int) workout.getHeartRate());
             mData.setRounds(MachineController.getInstance().getRounds());
 
             TapcApp.getInstance().mainActivity.checkPerson(workout);

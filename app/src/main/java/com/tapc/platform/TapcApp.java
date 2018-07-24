@@ -123,11 +123,13 @@ public class TapcApp extends Application {
 
     public GroupUserDTO groupUserDTO;
 
+    public MenuService menuService;
+
     @Override
     public void onCreate() {
         super.onCreate();
         instance = this;
-//		Thread.setDefaultUncaughtExceptionHandler(new AppExceptionHandler());
+//        Thread.setDefaultUncaughtExceptionHandler(new AppExceptionHandler());
 
         if (!Config.DEFAUL_LANGUAGE.isEmpty()) {
             String language = PreferenceHelper.readString(this, Config.SETTING_CONFIG, "admin_language",
@@ -190,7 +192,7 @@ public class TapcApp extends Application {
         }
 
         autoUploadSportsData();
-        clearSomeUserData();
+//        clearSomeUserData();
 
         scanCodeData = new BikeData();
     }

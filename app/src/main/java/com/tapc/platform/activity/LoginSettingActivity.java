@@ -2,6 +2,7 @@ package com.tapc.platform.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -23,11 +24,21 @@ public class LoginSettingActivity extends BaseActivity {
     @ViewInject(R.id.login_password_edit)
     EditText mLoginPwdEt;
 
+    private Handler mTimeOutHandler;
+
     @Override
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
         setContentView(R.layout.activity_setting_login);
         ViewUtils.inject(this);
+
+        mTimeOutHandler = new Handler();
+        mTimeOutHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                finish();
+            }
+        }, 2 * 60000);
     }
 
     @OnClick(R.id.login_btn)
@@ -48,5 +59,11 @@ public class LoginSettingActivity extends BaseActivity {
     protected void onPause() {
         super.onPause();
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mTimeOutHandler.removeCallbacksAndMessages(null);
     }
 }

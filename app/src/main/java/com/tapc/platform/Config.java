@@ -65,6 +65,6 @@ public class Config {
     public static boolean HAS_SET_PCDTX = false;
     public static BikeCtlType sBikeCtlType;
 
-    public static boolean HAS_SCAN_QR = true;
-    public static boolean HAS_RFID = true;
+    public static boolean HAS_SCAN_QR = false;
+    public static boolean HAS_RFID = false;
 }

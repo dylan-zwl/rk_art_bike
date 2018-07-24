@@ -266,6 +266,7 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
                 }
             });
             UserManageModel.getInstance().logout();
+            exitApp();
         } else {
             mDialogRl.setClickable(false);
             TapcApp.getInstance().controller.LoginQuitMachine(1);
@@ -565,6 +566,17 @@ public class ScanCodeDialog extends BaseSystemView implements ScanCodeContract.V
         }
     };
 
+    /**
+     * 退出第三方应用
+     */
+    private void exitApp() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                TapcApp.getInstance().clearAppExit(TapcApp.getInstance().listAppInfo);
+            }
+        }).start();
+    }
 
     /**
      * 功能描述 : 是否显示输入法键盘

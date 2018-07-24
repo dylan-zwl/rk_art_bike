@@ -20,7 +20,7 @@ public abstract class BaseCtlModel {
     protected boolean mCurrentConnectStatus = false;
     protected BaseListener mBaseListener;
     private BaseCommunicationManage mManage;
-    protected int mHeatbeatTime = 10000;
+    protected int mHeatbeatTime = 5000;
 
     public interface BaseListener {
         Object serverReadInfo();

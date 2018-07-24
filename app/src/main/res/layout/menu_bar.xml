@@ -116,7 +116,7 @@
                     android:layout_height="@dimen/osd_height"
                     workout:offset_y="20"
                     workout:textColor="@android:color/white"
-                    workout:titleName="@string/distance"
+                    workout:titleName="@string/laps"
                     workout:titleSize="@dimen/workout_title_size"
                     workout:unitName="0"
                     workout:unitSize="@dimen/workout_osd_size" />
